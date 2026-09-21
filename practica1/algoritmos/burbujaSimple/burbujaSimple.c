@@ -25,7 +25,7 @@ Linux y windows: ./programa 1000 <numeros10millones.txt >archivo.txt
 */
 #include <stdio.h>
 #include <stdlib.h>
-#include "tiempoHeader.h"
+#include "../../tiempos/tiempoHeader.h"
 
 void BurbujaSimple(int A[],int n);
 
@@ -34,9 +34,9 @@ int main(int argc, char *argv[]){
 	// Variables para el algoritmo
 	int i;
 
-	// Variables para la medición de tiempos 
+	// Variables para la medición de tiempos le
 		double utime0, stime0, wtime0,utime1, stime1, wtime1; //Variables para medición de tiempos
-    
+
 	if (argc!=2) 
 	{
 		printf("\nIndique el tamanio del algoritmo - Ejemplo: [user@equipo]$ %s 100\n",argv[0]);

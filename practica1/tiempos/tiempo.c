@@ -16,7 +16,7 @@
 //*****************************************************************
 #include <sys/resource.h>
 #include <sys/time.h>
-#include "tiempo.h"
+#include "tiempoHeader.h"
 
 //*****************************************************************
 //uswtime (Definición)
