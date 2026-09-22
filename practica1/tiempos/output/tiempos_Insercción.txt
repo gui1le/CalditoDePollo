@@ -1,0 +1,169 @@
+=== BITÁCORA DE TIEMPOS: Insercción ===
+================ RESULTADOS ================
+N consultadas: 1000
+real (Tiempo total)                    : 0.0007500648 s
+user (Tiempo de procesamiento en CPU)   : 0.0004490000 s
+sys  (Tiempo en acciones de E/S)       : 0.0001240000 s
+CPU/Wall                               : 76.3933945327 %
+============================================
+
+================ RESULTADOS ================
+N consultadas: 2000
+real (Tiempo total)                    : 0.0018548965 s
+user (Tiempo de procesamiento en CPU)   : 0.0016300000 s
+sys  (Tiempo en acciones de E/S)       : 0.0001240000 s
+CPU/Wall                               : 94.5605297686 %
+============================================
+
+================ RESULTADOS ================
+N consultadas: 3000
+real (Tiempo total)                    : 0.0034511089 s
+user (Tiempo de procesamiento en CPU)   : 0.0032050000 s
+sys  (Tiempo en acciones de E/S)       : 0.0001200000 s
+CPU/Wall                               : 96.3458431779 %
+============================================
+
+================ RESULTADOS ================
+N consultadas: 4000
+real (Tiempo total)                    : 0.0055170059 s
+user (Tiempo de procesamiento en CPU)   : 0.0052670000 s
+sys  (Tiempo en acciones de E/S)       : 0.0001160000 s
+CPU/Wall                               : 97.5710390320 %
+============================================
+
+================ RESULTADOS ================
+N consultadas: 5000
+real (Tiempo total)                    : 0.0080771446 s
+user (Tiempo de procesamiento en CPU)   : 0.0076930000 s
+sys  (Tiempo en acciones de E/S)       : 0.0001950000 s
+CPU/Wall                               : 97.6582736643 %
+============================================
+
+================ RESULTADOS ================
+N consultadas: 8000
+real (Tiempo total)                    : 0.0186259747 s
+user (Tiempo de procesamiento en CPU)   : 0.0181680000 s
+sys  (Tiempo en acciones de E/S)       : 0.0002600000 s
+CPU/Wall                               : 98.9371044532 %
+============================================
+
+================ RESULTADOS ================
+N consultadas: 10000
+real (Tiempo total)                    : 0.0266010761 s
+user (Tiempo de procesamiento en CPU)   : 0.0259900000 s
+sys  (Tiempo en acciones de E/S)       : 0.0003410000 s
+CPU/Wall                               : 98.9847172918 %
+============================================
+
+================ RESULTADOS ================
+N consultadas: 50000
+real (Tiempo total)                    : 0.6759638786 s
+user (Tiempo de procesamiento en CPU)   : 0.6686170000 s
+sys  (Tiempo en acciones de E/S)       : 0.0037610000 s
+CPU/Wall                               : 99.4695162353 %
+============================================
+
+================ RESULTADOS ================
+N consultadas: 100000
+real (Tiempo total)                    : 2.6243729591 s
+user (Tiempo de procesamiento en CPU)   : 2.6038660000 s
+sys  (Tiempo en acciones de E/S)       : 0.0168900000 s
+CPU/Wall                               : 99.8621781586 %
+============================================
+
+================ RESULTADOS ================
+N consultadas: 150000
+real (Tiempo total)                    : 5.8889768124 s
+user (Tiempo de procesamiento en CPU)   : 5.8306240000 s
+sys  (Tiempo en acciones de E/S)       : 0.0430490000 s
+CPU/Wall                               : 99.7401278210 %
+============================================
+
+================ RESULTADOS ================
+N consultadas: 200000
+real (Tiempo total)                    : 10.4213898182 s
+user (Tiempo de procesamiento en CPU)   : 10.3719870000 s
+sys  (Tiempo en acciones de E/S)       : 0.0424630000 s
+CPU/Wall                               : 99.9334079397 %
+============================================
+
+================ RESULTADOS ================
+N consultadas: 300000
+real (Tiempo total)                    : 23.2791330814 s
+user (Tiempo de procesamiento en CPU)   : 23.1722910000 s
+sys  (Tiempo en acciones de E/S)       : 0.0953780000 s
+CPU/Wall                               : 99.9507538301 %
+============================================
+
+================ RESULTADOS ================
+N consultadas: 400000
+real (Tiempo total)                    : 41.2850561142 s
+user (Tiempo de procesamiento en CPU)   : 41.0943050000 s
+sys  (Tiempo en acciones de E/S)       : 0.1671660000 s
+CPU/Wall                               : 99.9428725151 %
+============================================
+
+================ RESULTADOS ================
+N consultadas: 500000
+real (Tiempo total)                    : 64.5118989944 s
+user (Tiempo de procesamiento en CPU)   : 64.2415600000 s
+sys  (Tiempo en acciones de E/S)       : 0.2371590000 s
+CPU/Wall                               : 99.9485676364 %
+============================================
+
+================ RESULTADOS ================
+N consultadas: 600000
+real (Tiempo total)                    : 92.7251091003 s
+user (Tiempo de procesamiento en CPU)   : 92.4211540000 s
+sys  (Tiempo en acciones de E/S)       : 0.2518370000 s
+CPU/Wall                               : 99.9437928940 %
+============================================
+
+================ RESULTADOS ================
+N consultadas: 700000
+real (Tiempo total)                    : 126.8310768604 s
+user (Tiempo de procesamiento en CPU)   : 126.4852790000 s
+sys  (Tiempo en acciones de E/S)       : 0.2847350000 s
+CPU/Wall                               : 99.9518549697 %
+============================================
+
+================ RESULTADOS ================
+N consultadas: 800000
+real (Tiempo total)                    : 165.0060372353 s
+user (Tiempo de procesamiento en CPU)   : 164.5638890000 s
+sys  (Tiempo en acciones de E/S)       : 0.3611150000 s
+CPU/Wall                               : 99.9508907452 %
+============================================
+
+================ RESULTADOS ================
+N consultadas: 900000
+real (Tiempo total)                    : 209.3205931187 s
+user (Tiempo de procesamiento en CPU)   : 208.7614910000 s
+sys  (Tiempo en acciones de E/S)       : 0.4610170000 s
+CPU/Wall                               : 99.9531411997 %
+============================================
+
+================ RESULTADOS ================
+N consultadas: 1000000
+real (Tiempo total)                    : 257.5669548512 s
+user (Tiempo de procesamiento en CPU)   : 256.8777820000 s
+sys  (Tiempo en acciones de E/S)       : 0.5702830000 s
+CPU/Wall                               : 99.9538411862 %
+============================================
+
+================ RESULTADOS ================
+N consultadas: 1500000
+real (Tiempo total)                    : 598.0227499008 s
+user (Tiempo de procesamiento en CPU)   : 595.7645340000 s
+sys  (Tiempo en acciones de E/S)       : 1.9525980000 s
+CPU/Wall                               : 99.9488952718 %
+============================================
+
+================ RESULTADOS ================
+N consultadas: 2000000
+real (Tiempo total)                    : 1061.1468660831 s
+user (Tiempo de procesamiento en CPU)   : 1057.7990040000 s
+sys  (Tiempo en acciones de E/S)       : 2.8174580000 s
+CPU/Wall                               : 99.9500159591 %
+============================================
+

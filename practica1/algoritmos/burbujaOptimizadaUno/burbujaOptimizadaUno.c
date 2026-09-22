@@ -24,7 +24,7 @@ Linux y windows: ./programa 1000 <numeros10millones.txt >archivo.txt
 
 #include <stdio.h>
 #include <stdlib.h>
-#include "tiempoHeader.h"
+#include "../../tiempos/tiempoHeader.h"
 
 void BurbujaOptimizadaUno(int A[],int n);
 

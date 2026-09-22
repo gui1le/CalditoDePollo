@@ -22,7 +22,7 @@ Linux y windows: ./programa 1000 <numeros10millones.txt >archivo.txt
 #include <stdio.h>
 #include <stdlib.h>
 #include<stdbool.h>
-#include "tiempoHeader.h"
+#include "../../tiempos/tiempoHeader.h"
 
 void Shell(int A[],int n);
 
