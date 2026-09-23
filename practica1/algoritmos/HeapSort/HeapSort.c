@@ -1,26 +1,27 @@
 /*
-burbujaSimple.c
+heapSort.c
 V 1.0 septiembre 2026
-
+ 
 Alumnos que lo implementan:
          Duran de la Rosa Ailed Citlalli
          Espíritu Martínez Guillermo
          Hernández Ramírez Andrés
          Vicente Retana Laura Itzel
-
+ 
 Programa que lee n números de la entrada estándar y los almacena en un arreglo A,
-posteriormente ejecuta un algoritmo de ordenamiento por Burbuja Simple,
-el cual realiza iteraciones comparando e intercambiando elementos adyacentes.
-Finalmente, mide el tiempo de ejecución del algoritmo utilizando la librería de tiempo (tiempoHeader.h)
- para obtener el tiempo real, de usuario y de sistema con una complejidad de O(n^2).
-
+posteriormente ejecuta un algoritmo de ordenamiento por montículos (Heap Sort),
+el cual construye un montículo de mínimos insertando cada elemento del vector,
+y luego reemplaza el vector desordenado por el resultante de extraer un elemento
+a la vez del montículo, obteniendo así el arreglo ordenado ascendentemente.
+Por último, mide el tiempo de ejecución del algoritmo utilizando la librería de tiempo (tiempo.h)
+para obtener el tiempo real, de usuario y de sistema con una complejidad de O(n log n).
+ 
 Compilación:
-Linux y windows: gcc burbujaSimple.c tiempo.c -o programa
-
+Linux y windows: gcc heapSort.c tiempo.c -o programa
+ 
 Ejecución:
 Poner primero el valor de n, luego el archivo con los números y por último guardarlo en algún archivo txt.
 Ejemplo para 1000 números:
-
 Linux y windows: ./programa 1000 <numeros10millones.txt >archivo.txt
 */
 #include <stdio.h>
@@ -87,33 +88,57 @@ int main(int argc, char *argv[])
     free(A);
     return 0;
 }
+
 /*
-void BurbujaSimple(int A[], int n)
-Recibe: Arreglo A de enteros y el tamaño n del arreglo.
-Devuelve: void
-Observaciones: Ordena los elementos del arreglo A mediante el algoritmo de Burbuja Simple realizando comparaciones e intercambios adyacentes.
+void Insertar(int Heap[], int *tamHeap, int valor)
+Recibe: Arreglo Heap (montículo) de enteros, un puntero al tamaño actual del montículo,
+y el valor entero a insertar.
+
+Observaciones: Coloca valor al final del montículo (posición *tamHeap), incrementa el
+tamaño del montículo, y realiza el proceso de intercambiar
+el elemento con su padre mientras no se cumpla la propiedad de montículo de mínimos 
 */
+ 
 
 void Insertar(int Heap[], int *tamHeap, int valor)
 {
     int i, aux;
-
+ 
+    // Colocamos el nuevo valor al final del montículo
     Heap[*tamHeap] = valor;
-
+ 
+    // Guardamos la posición donde quedó el nuevo valor
     i = *tamHeap;
-
+ 
+    // Aumentamos el tamaño del montículo, ya que agregamos un elemento
     (*tamHeap)++;
    
-
+ 
+    // Mientras no lleguemos a la raíz y el padre sea mayor que el hijo, subimos el elemento
     while (i > 0 && Heap[(i-1) / 2] > Heap[i])
     {
+        // Intercambiamos el elemento con su padre
         aux = Heap[(i-1) / 2];
         Heap[(i-1) / 2] = Heap[i];
         Heap[i] = aux;
-
+ 
+        // Nos movemos a la posición del padre para seguir comparando
         i = (i-1) / 2;
     }
 }
+
+/*
+int Extraer(int Heap[], int *tamHeap)
+Recibe: Arreglo Heap (montículo) de enteros y un puntero al tamaño actual del montículo.
+
+Devuelve: El valor entero que estaba en la raíz del montículo (el mínimo).
+
+Observaciones: Guarda el valor de la raíz, mueve el último elemento del montículo a la
+raíz, decrementa el tamaño del montículo, y realiza el proceso de "hundir"
+(sift-down) intercambiando el elemento con su hijo menor mientras viole la
+propiedad de montículo de mínimos.
+*/
+ 
 
 int Extraer(int Heap[], int *tamHeap){
 
@@ -177,6 +202,15 @@ int Extraer(int Heap[], int *tamHeap){
 
 
 }
+
+/*
+void HeapSort(int A[], int n)
+Recibe: Arreglo A de enteros y el tamaño n del arreglo.
+
+Observaciones: Ordena los elementos del arreglo A de forma ascendente mediante el
+montículos (Heap Sort). Primero inserta cada elemento de A en un montículo auxiliar
+de mínimos, y después reemplaza A por el resultado de extraer un elemento a la vez del montículo.
+*/
 
 void HeapSort(int A[], int n)
 {
