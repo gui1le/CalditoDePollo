@@ -10,14 +10,25 @@ Alumnos que lo implementan:
 
 Programa que lee n números de la entrada estándar y los almacena en un arreglo A, posteriormente ejecuta el algoritmo de ordenamiento Shell Sort, el cual generaliza la inserción directa comparando elementos separados por un salto (gap) que se divide sucesivamente a la mitad. Mide el tiempo de ejecución con una complejidad promedio aproximada de O(n^(3/2)).
 
-Compilación:
-Linux y windows: gcc Shell.c tiempo.c -o programa 
+Compilación y ejecución:
+En el directorio superior del proyecto a la altura de la carpeta algoritmos
+se encuentra el archivo "numeros10millones.txt", el cual funge como la fuente de
+donde el algoritmo toma el conjunto de números desordenados.
 
-Ejecución:
-Poner primero el valor de n, luego el archivo con los números y por último guardarlo en algún archivo txt.
-Ejemplo para 1000 números:
+Implementando el archivo "ejecutar.sh" se automatizan las pruebas para los distintos tamaños de N.
+El script compila y genera el ejecutable "programa" dentro de la misma carpeta donde se ejecuta:
 
-Linux y windows: ./programa 1000 <numeros10millones.txt >archivo.txt
+./ejecutar.sh "Nombre de la carpeta", la carpeta a utilizar solo debe contener un .c
+de lo contrario usará el primero que encuentre.
+
+Además, genera un archivo .txt dentro de la carpeta "tiempos", a su vez dentro de la 
+carpeta "outputs", donde se muestra lo siguiente:
+
+Numeros consultados
+Tiempo real
+Tiempo de procesamiento en CPU
+Tiempo en acciones de E/S
+CPU/Wall
 */
 #include <stdio.h>
 #include <stdlib.h>

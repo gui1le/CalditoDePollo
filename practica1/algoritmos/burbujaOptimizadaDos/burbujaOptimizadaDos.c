@@ -15,22 +15,24 @@ intercambios. Si en un recorrido no hay intercambios, el algoritmo finaliza temp
 logrando un mejor caso de O(n) y peor caso O(n^2).
 
 Compilación y ejecución:
+En el directorio superior del proyecto a la altura de la carpeta algoritmos
+se encuentra el archivo "numeros10millones.txt", el cual funge como la fuente de
+donde el algoritmo toma el conjunto de números desordenados.
 
-Implementando el archivo "ejecutar.sh" para automatizar las pruebas de los números
-solicitados en la práctica, el .sh compila y genera el ejecutable "programa" dentro de la 
-misma carpeta donde se compila el script
+Implementando el archivo "ejecutar.sh" se automatizan las pruebas para los distintos tamaños de N.
+El script compila y genera el ejecutable "programa" dentro de la misma carpeta donde se ejecuta:
 
 ./ejecutar.sh "Nombre de la carpeta", la carpeta a utilizar solo debe contener un .c
-de lo contrario usará el primero que encuentre
+de lo contrario usará el primero que encuentre.
 
-Además genera un archivo .txt dentro de la carpeta "tiempos", a su vez dentro de la 
-carpeta "outputs" donde se muestra lo siguiente:
+Además, genera un archivo .txt dentro de la carpeta "tiempos", a su vez dentro de la 
+carpeta "outputs", donde se muestra lo siguiente:
 
 Numeros consultados
 Tiempo real
 Tiempo de procesamiento en CPU
 Tiempo en acciones de E/S
-CPU Wall
+CPU/Wall
 */
 
 #include <stdio.h>
