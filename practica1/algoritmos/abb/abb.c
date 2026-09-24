@@ -42,8 +42,11 @@ typedef struct NodoABB {
     int dato;
     struct NodoABB *izq;
     struct NodoABB *der;
-} NodoABB;
+} 
 
+NodoABB;
+
+NodoABB *CrearNodo(int valor);
 void InsertarABB(NodoABB **raiz, int valor);
 void GuardarRecorridoInOrden(NodoABB *raiz, int A[], int *indice);
 void LiberarABB(NodoABB *raiz);
@@ -122,14 +125,7 @@ Observaciones: Inserta un valor en un ABB. Si el valor ya existe, se manda a la 
 */
 void InsertarABB(NodoABB **raiz, int valor) {
     if (*raiz == NULL) {
-        *raiz = malloc(sizeof(NodoABB));
-        if (*raiz == NULL) {
-            printf("Error al asignar memoria.\n");
-            exit(1);
-        }
-        (*raiz)->dato = valor;
-        (*raiz)->izq = NULL;
-        (*raiz)->der = NULL;
+        *raiz = CrearNodo(valor);
         return;
     }
 
@@ -138,6 +134,21 @@ void InsertarABB(NodoABB **raiz, int valor) {
     } else {
         InsertarABB(&((*raiz)->der), valor);
     }
+}
+
+NodoABB *CrearNodo(int valor) {
+    NodoABB *nuevo = malloc(sizeof(NodoABB));
+
+    if (nuevo == NULL) {
+        printf("Error al asignar memoria.\n");
+        exit(1);
+    }
+
+    nuevo->dato = valor;
+    nuevo->izq = NULL;
+    nuevo->der = NULL;
+
+    return nuevo;
 }
 
 /*
