@@ -1,0 +1,41 @@
+=== BITÁCORA DE TIEMPOS: mergeSort ===
+================ RESULTADOS ================
+N consultadas: 3000000
+real (Tiempo total)                    : 0.3726589680 s
+user (Tiempo de procesamiento en CPU)   : 0.3534870000 s
+sys  (Tiempo en acciones de E/S)       : 0.0183640000 s
+CPU/Wall                               : 99.7831883730 %
+============================================
+
+================ RESULTADOS ================
+N consultadas: 4000000
+real (Tiempo total)                    : 0.5009648800 s
+user (Tiempo de procesamiento en CPU)   : 0.4795250000 s
+sys  (Tiempo en acciones de E/S)       : 0.0207530000 s
+CPU/Wall                               : 99.8628885942 %
+============================================
+
+================ RESULTADOS ================
+N consultadas: 5000000
+real (Tiempo total)                    : 0.6378271580 s
+user (Tiempo de procesamiento en CPU)   : 0.6110340000 s
+sys  (Tiempo en acciones de E/S)       : 0.0261000000 s
+CPU/Wall                               : 99.8913251081 %
+============================================
+
+================ RESULTADOS ================
+N consultadas: 6000000
+real (Tiempo total)                    : 0.7781481743 s
+user (Tiempo de procesamiento en CPU)   : 0.7428280000 s
+sys  (Tiempo en acciones de E/S)       : 0.0344960000 s
+CPU/Wall                               : 99.8940851739 %
+============================================
+
+================ RESULTADOS ================
+N consultadas: 10000000
+real (Tiempo total)                    : 1.3406431675 s
+user (Tiempo de procesamiento en CPU)   : 1.2763410000 s
+sys  (Tiempo en acciones de E/S)       : 0.0617250000 s
+CPU/Wall                               : 99.8077663350 %
+============================================
+

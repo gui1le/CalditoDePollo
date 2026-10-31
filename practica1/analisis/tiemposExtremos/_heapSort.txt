@@ -1,0 +1,41 @@
+=== BITÁCORA DE TIEMPOS: heapSort ===
+================ RESULTADOS ================
+N consultadas: 3000000
+real (Tiempo total)                    : 0.4769539833 s
+user (Tiempo de procesamiento en CPU)   : 0.4710800000 s
+sys  (Tiempo en acciones de E/S)       : 0.0037540000 s
+CPU/Wall                               : 99.5555161753 %
+============================================
+
+================ RESULTADOS ================
+N consultadas: 4000000
+real (Tiempo total)                    : 0.6218929291 s
+user (Tiempo de procesamiento en CPU)   : 0.6170340000 s
+sys  (Tiempo en acciones de E/S)       : 0.0044370000 s
+CPU/Wall                               : 99.9321540642 %
+============================================
+
+================ RESULTADOS ================
+N consultadas: 5000000
+real (Tiempo total)                    : 0.7929840088 s
+user (Tiempo de procesamiento en CPU)   : 0.7887150000 s
+sys  (Tiempo en acciones de E/S)       : 0.0036580000 s
+CPU/Wall                               : 99.9229481576 %
+============================================
+
+================ RESULTADOS ================
+N consultadas: 6000000
+real (Tiempo total)                    : 0.9615871906 s
+user (Tiempo de procesamiento en CPU)   : 0.9571430000 s
+sys  (Tiempo en acciones de E/S)       : 0.0037150000 s
+CPU/Wall                               : 99.9241680177 %
+============================================
+
+================ RESULTADOS ================
+N consultadas: 10000000
+real (Tiempo total)                    : 1.9064791203 s
+user (Tiempo de procesamiento en CPU)   : 1.8913270000 s
+sys  (Tiempo en acciones de E/S)       : 0.0123250000 s
+CPU/Wall                               : 99.8517098758 %
+============================================
+

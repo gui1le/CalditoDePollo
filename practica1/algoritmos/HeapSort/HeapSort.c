@@ -38,7 +38,7 @@ CPU/Wall
 */
 #include <stdio.h>
 #include <stdlib.h>
-#include "../../tiempos/tiempoHeader.h"
+#include "../../analisis/tiempoHeader.h"
 
 void HeapSort(int A[], int n);
 

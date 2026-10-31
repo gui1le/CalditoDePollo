@@ -34,7 +34,7 @@ CPU/Wall
 #include <stdio.h>
 #include <stdlib.h>
 #include<stdbool.h>
-#include "../../tiempos/tiempoHeader.h"
+#include "../../analisis/tiempoHeader.h"
 
 void Seleccion(int A[],int n);
 

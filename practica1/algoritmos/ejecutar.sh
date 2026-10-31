@@ -59,7 +59,7 @@ echo "Compilando $ARCHIVO_C..."
 # 4. COMPILACIÓN
 # Invoca al compilador GCC uniendo el algoritmo detectado y la librería de cálculo de tiempos compartida.
 # El ejecutable de salida (-o) siempre se llamará "programa".
-gcc "$ARCHIVO_C" ../../tiempos/tiempo.c -o programa
+gcc "$ARCHIVO_C" ../../analisis/tiempo.c -o programa
 
 # Verifica el código de estado de salida ($?) del último comando ejecutado (gcc).
 # Si es distinto de cero (-ne 0), hubo un error de sintaxis en C y se detiene el script.
@@ -70,12 +70,12 @@ fi
 
 # 5. CONFIGURACIÓN DE PARÁMETROS DE PRUEBA
 # Arreglo constante con los 21 tamaños de N exactos requeridos en la rúbrica de la práctica.
-TAMANOS=(1000 2000 3000 4000 5000 8000 10000 50000 100000 150000 200000 300000 400000 500000 600000 700000 800000 900000 1000000 1500000 2000000)
+TAMANOS=(3000000 4000000 5000000 6000000 10000000)
 
 # 6. PREPARACIÓN DEL ENTORNO DE SALIDA
 # Crea la carpeta contenedora de resultados. El flag -p evita errores si la carpeta ya existe.
-mkdir -p ../../tiempos/output
-RESULTADOS="../../tiempos/output/tiempos_${CARPETA}.txt"
+mkdir -p ../../analisis/tiemposExtremos
+RESULTADOS="../../analisis/tiemposExtremos/_${CARPETA}.txt"
 
 # Sobrescribe o crea un archivo de texto en blanco (>) insertando un encabezado formal.
 echo "=== BITÁCORA DE TIEMPOS: $CARPETA ===" > "$RESULTADOS"

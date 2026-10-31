@@ -35,7 +35,7 @@ CPU/Wall
 #include <stdio.h>
 #include <stdlib.h>
 #include<stdbool.h>
-#include "../../tiempos/tiempoHeader.h"
+#include "../../analisis/tiempoHeader.h"
 
 void MergeSort(int A[],int p,int r);
 void Merge(int A[],int p,int r,int q);

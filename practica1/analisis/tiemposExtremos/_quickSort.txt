@@ -1,0 +1,41 @@
+=== BITÁCORA DE TIEMPOS: quickSort ===
+================ RESULTADOS ================
+N consultadas: 3000000
+real (Tiempo total)                    : 0.2789659500 s
+user (Tiempo de procesamiento en CPU)   : 0.2766870000 s
+sys  (Tiempo en acciones de E/S)       : 0.0010140000 s
+CPU/Wall                               : 99.5465575594 %
+============================================
+
+================ RESULTADOS ================
+N consultadas: 4000000
+real (Tiempo total)                    : 0.3623540401 s
+user (Tiempo de procesamiento en CPU)   : 0.3603990000 s
+sys  (Tiempo en acciones de E/S)       : 0.0015070000 s
+CPU/Wall                               : 99.8763529322 %
+============================================
+
+================ RESULTADOS ================
+N consultadas: 5000000
+real (Tiempo total)                    : 0.4610068798 s
+user (Tiempo de procesamiento en CPU)   : 0.4579980000 s
+sys  (Tiempo en acciones de E/S)       : 0.0024780000 s
+CPU/Wall                               : 99.8848434091 %
+============================================
+
+================ RESULTADOS ================
+N consultadas: 6000000
+real (Tiempo total)                    : 0.5578289032 s
+user (Tiempo de procesamiento en CPU)   : 0.5543390000 s
+sys  (Tiempo en acciones de E/S)       : 0.0029250000 s
+CPU/Wall                               : 99.8987318163 %
+============================================
+
+================ RESULTADOS ================
+N consultadas: 10000000
+real (Tiempo total)                    : 0.9561431408 s
+user (Tiempo de procesamiento en CPU)   : 0.9522530000 s
+sys  (Tiempo en acciones de E/S)       : 0.0032140000 s
+CPU/Wall                               : 99.9292845638 %
+============================================
+

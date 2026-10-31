@@ -1,0 +1,41 @@
+=== BITÁCORA DE TIEMPOS: shell ===
+================ RESULTADOS ================
+N consultadas: 3000000
+real (Tiempo total)                    : 2.1136140823 s
+user (Tiempo de procesamiento en CPU)   : 2.1006070000 s
+sys  (Tiempo en acciones de E/S)       : 0.0081010000 s
+CPU/Wall                               : 99.7678818296 %
+============================================
+
+================ RESULTADOS ================
+N consultadas: 4000000
+real (Tiempo total)                    : 3.3050620556 s
+user (Tiempo de procesamiento en CPU)   : 3.2792320000 s
+sys  (Tiempo en acciones de E/S)       : 0.0183590000 s
+CPU/Wall                               : 99.7739511252 %
+============================================
+
+================ RESULTADOS ================
+N consultadas: 5000000
+real (Tiempo total)                    : 4.3773632050 s
+user (Tiempo de procesamiento en CPU)   : 4.3512900000 s
+sys  (Tiempo en acciones de E/S)       : 0.0182740000 s
+CPU/Wall                               : 99.8218286994 %
+============================================
+
+================ RESULTADOS ================
+N consultadas: 6000000
+real (Tiempo total)                    : 5.1777131557 s
+user (Tiempo de procesamiento en CPU)   : 5.1459010000 s
+sys  (Tiempo en acciones de E/S)       : 0.0227020000 s
+CPU/Wall                               : 99.8240505900 %
+============================================
+
+================ RESULTADOS ================
+N consultadas: 10000000
+real (Tiempo total)                    : 10.2877538204 s
+user (Tiempo de procesamiento en CPU)   : 10.2276240000 s
+sys  (Tiempo en acciones de E/S)       : 0.0399860000 s
+CPU/Wall                               : 99.8041961271 %
+============================================
+
