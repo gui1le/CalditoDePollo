@@ -53,4 +53,9 @@ dkms.conf
 
 # debug information files
 *.dwo
-practica1/algoritmos/numeros10millones.txt
+
+practica2/algoritmos/10MOrdenados.txt
+practica2/algoritmos/10MDesordenados.txt
+# Archivos de datos pesados de 10 millones de números
+numeros10millones.txt
+*10M*.txt
