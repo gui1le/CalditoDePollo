@@ -1,0 +1,211 @@
+=== RESULTADOS Y TIEMPOS PROMEDIO: binaria ===
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda binaria
+Tamano de n: 1000000
+
+numeros no encontrados:
+14700764, 61396, 2147445644, 1295390003, 450057883, 187645041, 1980098116, 152503, 5000, 1493283650, 214826, 1843349527, 1360839354, 2109248666, 2147470852
+
+numeros si encontrados:
+322486 en #pasos), 3128036 en #pasos), 6337399 en #pasos), 10393545 en #pasos), 0 en #pasos)
+
+================ RESULTADOS ================
+Algoritmo: Busqueda binaria
+N consultadas: 1000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0000161409 s
+user promedio (CPU en usuario)     : 0.0000023500 s
+sys promedio (CPU en sistema)      : 0.0000054500 s
+CPU/Wall                          : 48.3243296898 %
+============================================
+
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda binaria
+Tamano de n: 2000000
+
+numeros no encontrados:
+14700764, 61396, 2147445644, 1295390003, 450057883, 187645041, 1980098116, 152503, 5000, 1493283650, 214826, 1843349527, 1360839354, 2109248666, 2147470852
+
+numeros si encontrados:
+322486 en #pasos), 3128036 en #pasos), 6337399 en #pasos), 10393545 en #pasos), 0 en #pasos)
+
+================ RESULTADOS ================
+Algoritmo: Busqueda binaria
+N consultadas: 2000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0000172615 s
+user promedio (CPU en usuario)     : 0.0000023500 s
+sys promedio (CPU en sistema)      : 0.0000057000 s
+CPU/Wall                          : 46.6355624309 %
+============================================
+
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda binaria
+Tamano de n: 3000000
+
+numeros no encontrados:
+14700764, 61396, 2147445644, 1295390003, 450057883, 187645041, 1980098116, 152503, 5000, 1493283650, 214826, 1843349527, 1360839354, 2109248666, 2147470852
+
+numeros si encontrados:
+322486 en #pasos), 3128036 en #pasos), 6337399 en #pasos), 10393545 en #pasos), 0 en #pasos)
+
+================ RESULTADOS ================
+Algoritmo: Busqueda binaria
+N consultadas: 3000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0000177145 s
+user promedio (CPU en usuario)     : 0.0000025000 s
+sys promedio (CPU en sistema)      : 0.0000063000 s
+CPU/Wall                          : 49.6768172275 %
+============================================
+
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda binaria
+Tamano de n: 4000000
+
+numeros no encontrados:
+14700764, 61396, 2147445644, 1295390003, 450057883, 187645041, 1980098116, 152503, 5000, 1493283650, 214826, 1843349527, 1360839354, 2109248666, 2147470852
+
+numeros si encontrados:
+322486 en #pasos), 3128036 en #pasos), 6337399 en #pasos), 10393545 en #pasos), 0 en #pasos)
+
+================ RESULTADOS ================
+Algoritmo: Busqueda binaria
+N consultadas: 4000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0000183940 s
+user promedio (CPU en usuario)     : 0.0000026000 s
+sys promedio (CPU en sistema)      : 0.0000071500 s
+CPU/Wall                          : 53.0064342191 %
+============================================
+
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda binaria
+Tamano de n: 5000000
+
+numeros no encontrados:
+14700764, 61396, 2147445644, 1295390003, 450057883, 187645041, 1980098116, 152503, 5000, 1493283650, 214826, 1843349527, 1360839354, 2109248666, 2147470852
+
+numeros si encontrados:
+322486 en #pasos), 3128036 en #pasos), 6337399 en #pasos), 10393545 en #pasos), 0 en #pasos)
+
+================ RESULTADOS ================
+Algoritmo: Busqueda binaria
+N consultadas: 5000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0000184536 s
+user promedio (CPU en usuario)     : 0.0000027500 s
+sys promedio (CPU en sistema)      : 0.0000070500 s
+CPU/Wall                          : 53.1061746770 %
+============================================
+
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda binaria
+Tamano de n: 6000000
+
+numeros no encontrados:
+14700764, 61396, 2147445644, 1295390003, 450057883, 187645041, 1980098116, 152503, 5000, 1493283650, 214826, 1843349527, 1360839354, 2109248666, 2147470852
+
+numeros si encontrados:
+322486 en #pasos), 3128036 en #pasos), 6337399 en #pasos), 10393545 en #pasos), 0 en #pasos)
+
+================ RESULTADOS ================
+Algoritmo: Busqueda binaria
+N consultadas: 6000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0000173092 s
+user promedio (CPU en usuario)     : 0.0000025000 s
+sys promedio (CPU en sistema)      : 0.0000066500 s
+CPU/Wall                          : 52.8620958678 %
+============================================
+
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda binaria
+Tamano de n: 7000000
+
+numeros no encontrados:
+14700764, 61396, 2147445644, 450057883, 187645041, 1980098116, 152503, 5000, 214826, 1843349527, 1360839354, 2109248666, 2147470852
+
+numeros si encontrados:
+322486 en #pasos), 3128036 en #pasos), 6337399 en #pasos), 10393545 en #pasos), 1295390003 en #pasos), 1493283650 en #pasos), 0 en #pasos)
+
+================ RESULTADOS ================
+Algoritmo: Busqueda binaria
+N consultadas: 7000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0000196576 s
+user promedio (CPU en usuario)     : 0.0000026500 s
+sys promedio (CPU en sistema)      : 0.0000082500 s
+CPU/Wall                          : 55.4492584597 %
+============================================
+
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda binaria
+Tamano de n: 8000000
+
+numeros no encontrados:
+14700764, 61396, 2147445644, 450057883, 187645041, 1980098116, 152503, 5000, 214826, 1843349527, 1360839354, 2109248666, 2147470852
+
+numeros si encontrados:
+322486 en #pasos), 3128036 en #pasos), 6337399 en #pasos), 10393545 en #pasos), 1295390003 en #pasos), 1493283650 en #pasos), 0 en #pasos)
+
+================ RESULTADOS ================
+Algoritmo: Busqueda binaria
+N consultadas: 8000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0000178933 s
+user promedio (CPU en usuario)     : 0.0000027500 s
+sys promedio (CPU en sistema)      : 0.0000065500 s
+CPU/Wall                          : 51.9747197868 %
+============================================
+
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda binaria
+Tamano de n: 9000000
+
+numeros no encontrados:
+14700764, 61396, 2147445644, 450057883, 187645041, 1980098116, 152503, 5000, 214826, 1360839354, 2109248666, 2147470852
+
+numeros si encontrados:
+322486 en #pasos), 3128036 en #pasos), 6337399 en #pasos), 10393545 en #pasos), 1295390003 en #pasos), 1493283650 en #pasos), 1843349527 en #pasos), 0 en #pasos)
+
+================ RESULTADOS ================
+Algoritmo: Busqueda binaria
+N consultadas: 9000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0000178576 s
+user promedio (CPU en usuario)     : 0.0000028000 s
+sys promedio (CPU en sistema)      : 0.0000060000 s
+CPU/Wall                          : 49.2788720961 %
+============================================
+
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda binaria
+Tamano de n: 10000000
+
+numeros no encontrados:
+14700764, 61396, 2147445644, 450057883, 187645041, 1980098116, 152503, 5000, 214826, 1360839354
+
+numeros si encontrados:
+322486 en #pasos), 3128036 en #pasos), 6337399 en #pasos), 10393545 en #pasos), 1295390003 en #pasos), 1493283650 en #pasos), 1843349527 en #pasos), 2109248666 en #pasos), 2147470852 en #pasos), 0 en #pasos)
+
+================ RESULTADOS ================
+Algoritmo: Busqueda binaria
+N consultadas: 10000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0000174999 s
+user promedio (CPU en usuario)     : 0.0000026000 s
+sys promedio (CPU en sistema)      : 0.0000065500 s
+CPU/Wall                          : 52.2859422343 %
+============================================
+

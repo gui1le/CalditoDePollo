@@ -1,7 +1,7 @@
 #!/bin/bash
 # ==============================================================================
 # ejecutar.sh
-# V 1.0 octubre 2026
+# V 1.3 octubre 2026
 #
 # Alumnos que lo implementan:
 #     Duran de la Rosa Ailed Citlalli
@@ -9,48 +9,38 @@
 #     Hernández Ramírez Andrés
 #     Vicente Retana Laura Itzel
 #
+# Descripción:
 # Compila un algoritmo de búsqueda y lo ejecuta para diez tamaños de n:
 # de 1,000,000 a 10,000,000, en incrementos de 1,000,000.
 #
-# El programa de C debe:
-#   - Recibir n como único argumento.
-#   - Leer los números desde la entrada estándar.
-#   - Realizar las 20 búsquedas.
-#   - Imprimir sus promedios después del encabezado "RESULTADOS".
+# El programa de C abre y lee directamente el archivo de datos.
+# Formatea la salida agrupando los números encontrados y no encontrados.
 #
-# Uso, desde practica2/algoritmos:
-# bash ejecutar.sh secuencial /ruta/al/archivo/numeros10millones.txt
+# Salida:
+# Genera un archivo <carpeta>_tiempos.txt directamente dentro de:
+# practica2/analisis/tiempos/
+#
+# Uso desde practica2/algoritmos:
+# bash ejecutar.sh secuencial
 # ==============================================================================
 
-# Detener el script ante errores, incluso dentro de una tubería.
+# Detener el script ante errores y variables no definidas.
 set -euo pipefail
 
 # 1. VALIDAR LOS ARGUMENTOS
-if [ "$#" -ne 2 ]; then
-    echo "Uso: bash ejecutar.sh <carpeta_algoritmo> <archivo_numeros>"
-    echo "Ejemplo: bash ejecutar.sh secuencial ./numeros10millones.txt"
+if [ "$#" -ne 1 ]; then
+    echo "Uso: bash ejecutar.sh <carpeta_algoritmo>"
+    echo "Ejemplo: bash ejecutar.sh secuencial"
     exit 1
 fi
 
 CARPETA="$1"
-ARCHIVO_NUMEROS="$2"
 
-# Comprobar la entrada antes de cambiar de directorio.
-if [ ! -f "$ARCHIVO_NUMEROS" ] || [ ! -r "$ARCHIVO_NUMEROS" ]; then
-    echo "Error: no se puede leer '$ARCHIVO_NUMEROS'."
-    exit 1
-fi
-
-# Convertir la ruta de los números en absoluta.
-ARCHIVO_NUMEROS="$(cd -- "$(dirname -- "$ARCHIVO_NUMEROS")" &&
-    pwd)/$(basename -- "$ARCHIVO_NUMEROS")"
-
-# Trabajar desde la ubicación del script.
+# Trabajar desde la carpeta donde está guardado el script.
 DIRECTORIO_SCRIPT="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 cd -- "$DIRECTORIO_SCRIPT"
 
 # 2. VALIDAR LA CARPETA DEL ALGORITMO
-# Se espera una carpeta directamente dentro de algoritmos.
 if [[ "$CARPETA" == */* || "$CARPETA" == "." || "$CARPETA" == ".." ]]; then
     echo "Error: indica solo el nombre de la carpeta, por ejemplo: secuencial."
     exit 1
@@ -75,14 +65,14 @@ fi
 ARCHIVO_C="${ARCHIVOS_C[0]}"
 
 # 4. COMPROBAR LA BIBLIOTECA Y EL COMPILADOR
-if [ ! -f "../../tiempos/tiempo.c" ] ||
-   [ ! -f "../../tiempos/tiempo.h" ]; then
-    echo "Error: faltan tiempo.c o tiempoHeader.h en practica2/tiempos."
+if [ ! -f "../../analisis/tiempo.c" ] ||
+   [ ! -f "../../analisis/tiempo.h" ]; then
+    echo "Error: faltan tiempo.c o tiempo.h en practica2/analisis."
     exit 1
 fi
 
 if ! command -v gcc >/dev/null 2>&1; then
-    echo "Error: GCC no está disponible en esta terminal."
+    echo "Error: el comando gcc no está disponible en esta terminal."
     exit 1
 fi
 
@@ -90,7 +80,7 @@ fi
 echo "Compilando $ARCHIVO_C..."
 
 if ! gcc -std=gnu11 -Wall -Wextra \
-    "$ARCHIVO_C" ../../tiempos/tiempo.c -o programa; then
+    "$ARCHIVO_C" ../../analisis/tiempo.c -o programa; then
     echo "Error de compilación. No se ejecutaron las pruebas."
     exit 1
 fi
@@ -109,42 +99,81 @@ TAMANOS=(
     10000000
 )
 
-# 7. PREPARAR LOS ARCHIVOS DE RESULTADOS
-# Cada ejecución del script obtiene una carpeta propia.
-mkdir -p ../../analisis/tiempos
+# 7. PREPARAR EL ARCHIVO DE RESULTADOS
+DIR_TIEMPOS="../../analisis/tiempos"
+mkdir -p "$DIR_TIEMPOS"
 
-DIRECTORIO_SALIDA="$(mktemp -d \
-    "../../analisis/tiempos/${CARPETA}_XXXXXXXX")"
+PROMEDIOS="$DIR_TIEMPOS/${CARPETA}_tiempos.txt"
 
-DETALLE="$DIRECTORIO_SALIDA/detalle.txt"
-PROMEDIOS="$DIRECTORIO_SALIDA/promedios.txt"
+echo "=== RESULTADOS Y TIEMPOS PROMEDIO: $CARPETA ===" > "$PROMEDIOS"
 
-echo "=== DETALLE DE BUSQUEDAS: $CARPETA ===" > "$DETALLE"
-echo "=== TIEMPOS PROMEDIO: $CARPETA ===" > "$PROMEDIOS"
-
-# 8. EJECUTAR TODOS LOS TAMAÑOS
+# 8. EJECUTAR TODOS LOS TAMAÑOS Y REFORMATAR LA SALIDA
 for n in "${TAMANOS[@]}"; do
     echo "Ejecutando $CARPETA para n = $n..."
 
-    # El programa lee los primeros n números del archivo.
-    # tee conserva la salida completa.
-    # sed extrae desde RESULTADOS hasta el final.
-    if ! ./programa "$n" < "$ARCHIVO_NUMEROS" |
-        tee -a "$DETALLE" |
-        sed -n '/================ RESULTADOS/,$p' >> "$PROMEDIOS"; then
-
+    if ! ./programa "$n" | awk '
+        BEGIN {
+            in_busquedas = 0
+            si_count = 0
+            no_count = 0
+        }
+        /^================ BUSQUEDAS/ {
+            in_busquedas = 1
+            print
+            next
+        }
+        /^Numero / {
+            if ($0 ~ /NO encontrado/) {
+                num = $2
+                sub(/:/, "", num)
+                no_arr[++no_count] = num
+            } else if ($0 ~ /SI encontrado/) {
+                num = $2
+                sub(/:/, "", num)
+                idx = $NF
+                sub(/\./, "", idx)
+                si_arr[++si_count] = num " en #" idx
+            }
+            next
+        }
+        /^================ RESULTADOS/ {
+            in_busquedas = 0
+            print ""
+            print "numeros no encontrados:"
+            no_str = ""
+            for (i = 1; i <= no_count; i++) {
+                no_str = no_str (i > 1 ? ", " : "") no_arr[i]
+            }
+            print no_str
+            print ""
+            print "numeros si encontrados:"
+            si_str = ""
+            for (i = 1; i <= si_count; i++) {
+                si_str = si_str (i > 1 ? ", " : "") si_arr[i]
+            }
+            print si_str
+            print ""
+            si_count = 0
+            no_count = 0
+            print
+            next
+        }
+        /^$/ {
+            if (in_busquedas) next
+        }
+        {
+            print
+        }
+    ' >> "$PROMEDIOS"; then
         echo "Error durante la prueba con n = $n."
-        echo "La ejecución quedó incompleta. Revisa: $DIRECTORIO_SALIDA"
+        echo "La ejecución quedó incompleta. Revisa: $PROMEDIOS"
         exit 1
     fi
 
-    echo "" >> "$DETALLE"
     echo "" >> "$PROMEDIOS"
 done
 
 echo "--------------------------------------------------"
 echo "¡Listo! Se completaron los diez tamaños."
 echo "Resultados guardados en:"
-echo "$(cd -- "$DIRECTORIO_SALIDA" && pwd)"
-echo "  detalle.txt   : resultados de cada búsqueda."
-echo "  promedios.txt : tiempos promedio para cada n."
+echo "$(cd -- "$DIR_TIEMPOS" && pwd)/${CARPETA}_tiempos.txt"

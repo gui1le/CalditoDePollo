@@ -1,0 +1,211 @@
+=== RESULTADOS Y TIEMPOS PROMEDIO: fibonacci ===
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda de Fibonacci
+Tamano de n: 1000000
+
+numeros no encontrados:
+14700764, 61396, 2147445644, 1295390003, 450057883, 187645041, 1980098116, 152503, 5000, 1493283650, 214826, 1843349527, 1360839354, 2109248666, 2147470852
+
+numeros si encontrados:
+322486 en #pasos), 3128036 en #pasos), 6337399 en #pasos), 10393545 en #pasos), 0 en #pasos)
+
+================ RESULTADOS ================
+Algoritmo: Busqueda de Fibonacci
+N consultadas: 1000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0000174522 s
+user promedio (CPU en usuario)     : 0.0000022500 s
+sys promedio (CPU en sistema)      : 0.0000066000 s
+CPU/Wall                          : 50.7098229508 %
+============================================
+
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda de Fibonacci
+Tamano de n: 2000000
+
+numeros no encontrados:
+14700764, 61396, 2147445644, 1295390003, 450057883, 187645041, 1980098116, 152503, 5000, 1493283650, 214826, 1843349527, 1360839354, 2109248666, 2147470852
+
+numeros si encontrados:
+322486 en #pasos), 3128036 en #pasos), 6337399 en #pasos), 10393545 en #pasos), 0 en #pasos)
+
+================ RESULTADOS ================
+Algoritmo: Busqueda de Fibonacci
+N consultadas: 2000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0000165939 s
+user promedio (CPU en usuario)     : 0.0000024000 s
+sys promedio (CPU en sistema)      : 0.0000051000 s
+CPU/Wall                          : 45.1972413793 %
+============================================
+
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda de Fibonacci
+Tamano de n: 3000000
+
+numeros no encontrados:
+14700764, 61396, 2147445644, 1295390003, 450057883, 187645041, 1980098116, 152503, 5000, 1493283650, 214826, 1843349527, 1360839354, 2109248666, 2147470852
+
+numeros si encontrados:
+322486 en #pasos), 3128036 en #pasos), 6337399 en #pasos), 10393545 en #pasos), 0 en #pasos)
+
+================ RESULTADOS ================
+Algoritmo: Busqueda de Fibonacci
+N consultadas: 3000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0000154018 s
+user promedio (CPU en usuario)     : 0.0000023500 s
+sys promedio (CPU en sistema)      : 0.0000061000 s
+CPU/Wall                          : 54.8635739938 %
+============================================
+
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda de Fibonacci
+Tamano de n: 4000000
+
+numeros no encontrados:
+14700764, 61396, 2147445644, 1295390003, 450057883, 187645041, 1980098116, 152503, 5000, 1493283650, 214826, 1843349527, 1360839354, 2109248666, 2147470852
+
+numeros si encontrados:
+322486 en #pasos), 3128036 en #pasos), 6337399 en #pasos), 10393545 en #pasos), 0 en #pasos)
+
+================ RESULTADOS ================
+Algoritmo: Busqueda de Fibonacci
+N consultadas: 4000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0000212431 s
+user promedio (CPU en usuario)     : 0.0000026500 s
+sys promedio (CPU en sistema)      : 0.0000070000 s
+CPU/Wall                          : 45.4265248036 %
+============================================
+
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda de Fibonacci
+Tamano de n: 5000000
+
+numeros no encontrados:
+14700764, 61396, 2147445644, 1295390003, 450057883, 187645041, 1980098116, 152503, 5000, 1493283650, 214826, 1843349527, 1360839354, 2109248666, 2147470852
+
+numeros si encontrados:
+322486 en #pasos), 3128036 en #pasos), 6337399 en #pasos), 10393545 en #pasos), 0 en #pasos)
+
+================ RESULTADOS ================
+Algoritmo: Busqueda de Fibonacci
+N consultadas: 5000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0000166535 s
+user promedio (CPU en usuario)     : 0.0000023000 s
+sys promedio (CPU en sistema)      : 0.0000058000 s
+CPU/Wall                          : 48.6383141017 %
+============================================
+
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda de Fibonacci
+Tamano de n: 6000000
+
+numeros no encontrados:
+14700764, 61396, 2147445644, 1295390003, 450057883, 187645041, 1980098116, 152503, 5000, 1493283650, 214826, 1843349527, 1360839354, 2109248666, 2147470852
+
+numeros si encontrados:
+322486 en #pasos), 3128036 en #pasos), 6337399 en #pasos), 10393545 en #pasos), 0 en #pasos)
+
+================ RESULTADOS ================
+Algoritmo: Busqueda de Fibonacci
+N consultadas: 6000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0000170469 s
+user promedio (CPU en usuario)     : 0.0000023500 s
+sys promedio (CPU en sistema)      : 0.0000061000 s
+CPU/Wall                          : 49.5690472727 %
+============================================
+
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda de Fibonacci
+Tamano de n: 7000000
+
+numeros no encontrados:
+14700764, 61396, 2147445644, 450057883, 187645041, 1980098116, 152503, 5000, 214826, 1843349527, 1360839354, 2109248666, 2147470852
+
+numeros si encontrados:
+322486 en #pasos), 3128036 en #pasos), 6337399 en #pasos), 10393545 en #pasos), 1295390003 en #pasos), 1493283650 en #pasos), 0 en #pasos)
+
+================ RESULTADOS ================
+Algoritmo: Busqueda de Fibonacci
+N consultadas: 7000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0000174999 s
+user promedio (CPU en usuario)     : 0.0000026500 s
+sys promedio (CPU en sistema)      : 0.0000065500 s
+CPU/Wall                          : 52.5716577657 %
+============================================
+
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda de Fibonacci
+Tamano de n: 8000000
+
+numeros no encontrados:
+14700764, 61396, 2147445644, 450057883, 187645041, 1980098116, 152503, 5000, 214826, 1843349527, 1360839354, 2109248666, 2147470852
+
+numeros si encontrados:
+322486 en #pasos), 3128036 en #pasos), 6337399 en #pasos), 10393545 en #pasos), 1295390003 en #pasos), 1493283650 en #pasos), 0 en #pasos)
+
+================ RESULTADOS ================
+Algoritmo: Busqueda de Fibonacci
+N consultadas: 8000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0000176191 s
+user promedio (CPU en usuario)     : 0.0000026000 s
+sys promedio (CPU en sistema)      : 0.0000063500 s
+CPU/Wall                          : 50.7970511502 %
+============================================
+
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda de Fibonacci
+Tamano de n: 9000000
+
+numeros no encontrados:
+14700764, 61396, 2147445644, 450057883, 187645041, 1980098116, 152503, 5000, 214826, 1360839354, 2109248666, 2147470852
+
+numeros si encontrados:
+322486 en #pasos), 3128036 en #pasos), 6337399 en #pasos), 10393545 en #pasos), 1295390003 en #pasos), 1493283650 en #pasos), 1843349527 en #pasos), 0 en #pasos)
+
+================ RESULTADOS ================
+Algoritmo: Busqueda de Fibonacci
+N consultadas: 9000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0000200033 s
+user promedio (CPU en usuario)     : 0.0000030500 s
+sys promedio (CPU en sistema)      : 0.0000076500 s
+CPU/Wall                          : 53.4911237187 %
+============================================
+
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda de Fibonacci
+Tamano de n: 10000000
+
+numeros no encontrados:
+14700764, 61396, 2147445644, 450057883, 187645041, 1980098116, 152503, 5000, 214826, 1360839354
+
+numeros si encontrados:
+322486 en #pasos), 3128036 en #pasos), 6337399 en #pasos), 10393545 en #pasos), 1295390003 en #pasos), 1493283650 en #pasos), 1843349527 en #pasos), 2109248666 en #pasos), 2147470852 en #pasos), 0 en #pasos)
+
+================ RESULTADOS ================
+Algoritmo: Busqueda de Fibonacci
+N consultadas: 10000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0000190139 s
+user promedio (CPU en usuario)     : 0.0000028500 s
+sys promedio (CPU en sistema)      : 0.0000068500 s
+CPU/Wall                          : 51.0153589969 %
+============================================
+

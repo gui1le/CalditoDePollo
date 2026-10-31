@@ -1,0 +1,211 @@
+=== RESULTADOS Y TIEMPOS PROMEDIO: secuencial ===
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda lineal
+Tamano de n: 1000000
+
+numeros no encontrados:
+322486, 14700764, 3128036, 6337399, 61396, 10393545, 2147445644, 1295390003, 450057883, 187645041, 1980098116, 152503, 5000, 214826, 1843349527, 1360839354, 2109248666, 2147470852, 0
+
+numeros si encontrados:
+1493283650 en #542694
+
+================ RESULTADOS ================
+Algoritmo: Busqueda lineal
+N consultadas: 1000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0005441546 s
+user promedio (CPU en usuario)     : 0.0005257000 s
+sys promedio (CPU en sistema)      : 0.0000072500 s
+CPU/Wall                          : 97.9409081342 %
+============================================
+
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda lineal
+Tamano de n: 2000000
+
+numeros no encontrados:
+322486, 14700764, 6337399, 61396, 10393545, 2147445644, 1295390003, 450057883, 187645041, 1980098116, 152503, 5000, 214826, 1843349527, 1360839354, 2109248666, 2147470852, 0
+
+numeros si encontrados:
+3128036 en #1368035, 1493283650 en #542694
+
+================ RESULTADOS ================
+Algoritmo: Busqueda lineal
+N consultadas: 2000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0010380864 s
+user promedio (CPU en usuario)     : 0.0010203000 s
+sys promedio (CPU en sistema)      : 0.0000074500 s
+CPU/Wall                          : 99.0042818985 %
+============================================
+
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda lineal
+Tamano de n: 3000000
+
+numeros no encontrados:
+322486, 14700764, 6337399, 61396, 10393545, 2147445644, 1295390003, 450057883, 187645041, 1980098116, 152503, 5000, 214826, 1360839354, 2109248666, 2147470852, 0
+
+numeros si encontrados:
+3128036 en #1368035, 1493283650 en #542694, 1843349527 en #2415203
+
+================ RESULTADOS ================
+Algoritmo: Busqueda lineal
+N consultadas: 3000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0015164137 s
+user promedio (CPU en usuario)     : 0.0014931000 s
+sys promedio (CPU en sistema)      : 0.0000118000 s
+CPU/Wall                          : 99.2407290474 %
+============================================
+
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda lineal
+Tamano de n: 4000000
+
+numeros no encontrados:
+322486, 14700764, 6337399, 61396, 10393545, 2147445644, 1295390003, 450057883, 187645041, 1980098116, 152503, 5000, 214826, 1360839354, 2109248666, 2147470852, 0
+
+numeros si encontrados:
+3128036 en #1368035, 1493283650 en #542694, 1843349527 en #2415203
+
+================ RESULTADOS ================
+Algoritmo: Busqueda lineal
+N consultadas: 4000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0019782066 s
+user promedio (CPU en usuario)     : 0.0019468500 s
+sys promedio (CPU en sistema)      : 0.0000196500 s
+CPU/Wall                          : 99.4082198332 %
+============================================
+
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda lineal
+Tamano de n: 5000000
+
+numeros no encontrados:
+322486, 14700764, 6337399, 61396, 10393545, 2147445644, 1295390003, 450057883, 187645041, 1980098116, 152503, 5000, 214826, 1360839354, 2109248666, 2147470852, 0
+
+numeros si encontrados:
+3128036 en #1368035, 1493283650 en #542694, 1843349527 en #2415203
+
+================ RESULTADOS ================
+Algoritmo: Busqueda lineal
+N consultadas: 5000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0024350524 s
+user promedio (CPU en usuario)     : 0.0024068000 s
+sys promedio (CPU en sistema)      : 0.0000153500 s
+CPU/Wall                          : 99.4701389221 %
+============================================
+
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda lineal
+Tamano de n: 6000000
+
+numeros no encontrados:
+322486, 14700764, 6337399, 61396, 10393545, 2147445644, 1295390003, 450057883, 187645041, 1980098116, 152503, 5000, 214826, 1360839354, 2109248666, 2147470852, 0
+
+numeros si encontrados:
+3128036 en #1368035, 1493283650 en #542694, 1843349527 en #2415203
+
+================ RESULTADOS ================
+Algoritmo: Busqueda lineal
+N consultadas: 6000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0029149652 s
+user promedio (CPU en usuario)     : 0.0028834500 s
+sys promedio (CPU en sistema)      : 0.0000197500 s
+CPU/Wall                          : 99.5963878769 %
+============================================
+
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda lineal
+Tamano de n: 7000000
+
+numeros no encontrados:
+322486, 14700764, 61396, 2147445644, 1295390003, 450057883, 187645041, 1980098116, 152503, 5000, 214826, 1360839354, 2147470852, 0
+
+numeros si encontrados:
+3128036 en #1368035, 6337399 en #6334598, 10393545 en #6936855, 1493283650 en #542694, 1843349527 en #2415203, 2109248666 en #6630039
+
+================ RESULTADOS ================
+Algoritmo: Busqueda lineal
+N consultadas: 7000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0033614993 s
+user promedio (CPU en usuario)     : 0.0033271000 s
+sys promedio (CPU en sistema)      : 0.0000224000 s
+CPU/Wall                          : 99.6430369774 %
+============================================
+
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda lineal
+Tamano de n: 8000000
+
+numeros no encontrados:
+322486, 14700764, 61396, 2147445644, 1295390003, 450057883, 187645041, 1980098116, 152503, 5000, 214826, 1360839354, 0
+
+numeros si encontrados:
+3128036 en #1368035, 6337399 en #6334598, 10393545 en #6936855, 1493283650 en #542694, 1843349527 en #2415203, 2109248666 en #6630039, 2147470852 en #7902795
+
+================ RESULTADOS ================
+Algoritmo: Busqueda lineal
+N consultadas: 8000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0037817001 s
+user promedio (CPU en usuario)     : 0.0037434500 s
+sys promedio (CPU en sistema)      : 0.0000223000 s
+CPU/Wall                          : 99.5782284763 %
+============================================
+
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda lineal
+Tamano de n: 9000000
+
+numeros no encontrados:
+14700764, 61396, 2147445644, 450057883, 187645041, 1980098116, 152503, 5000, 214826, 1360839354, 0
+
+numeros si encontrados:
+322486 en #8674905, 3128036 en #1368035, 6337399 en #6334598, 10393545 en #6936855, 1295390003 en #8313715, 1493283650 en #542694, 1843349527 en #2415203, 2109248666 en #6630039, 2147470852 en #7902795
+
+================ RESULTADOS ================
+Algoritmo: Busqueda lineal
+N consultadas: 9000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0041900396 s
+user promedio (CPU en usuario)     : 0.0041199000 s
+sys promedio (CPU en sistema)      : 0.0000573500 s
+CPU/Wall                          : 99.6947610090 %
+============================================
+
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda lineal
+Tamano de n: 10000000
+
+numeros no encontrados:
+14700764, 61396, 2147445644, 450057883, 187645041, 1980098116, 152503, 5000, 214826, 1360839354, 0
+
+numeros si encontrados:
+322486 en #8674905, 3128036 en #1368035, 6337399 en #6334598, 10393545 en #6936855, 1295390003 en #8313715, 1493283650 en #542694, 1843349527 en #2415203, 2109248666 en #6630039, 2147470852 en #7902795
+
+================ RESULTADOS ================
+Algoritmo: Busqueda lineal
+N consultadas: 10000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0044582963 s
+user promedio (CPU en usuario)     : 0.0043927000 s
+sys promedio (CPU en sistema)      : 0.0000511000 s
+CPU/Wall                          : 99.6748466677 %
+============================================
+

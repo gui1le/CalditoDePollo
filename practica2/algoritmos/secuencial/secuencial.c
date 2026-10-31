@@ -1,5 +1,5 @@
 /*
-busquedaLineal.c
+secuencial.c
 V 1.0 octubre 2026
 
 Alumnos que lo implementan:
@@ -9,31 +9,38 @@ Alumnos que lo implementan:
     Vicente Retana Laura Itzel
 
 Descripción:
-Lee los primeros n números de la entrada estándar y los almacena
-en un arreglo A.
+Lee los primeros n números del archivo de datos desordenados y los
+almacena en un arreglo A.
 
-Realiza una búsqueda lineal por cada uno de los 20 valores indicados
-en la práctica. Registra los tiempos real, de usuario y de sistema
-de cada búsqueda y calcula sus promedios.
+Realiza una búsqueda secuencial en el arreglo por cada uno de los 20 valores
+indicados en la práctica. Registra los tiempos real, de usuario y de sistema
+de las 20 búsquedas consecutivas y calcula sus promedios.
 
-La lectura de los datos y la impresión de resultados quedan fuera
-del intervalo de medición.
+La lectura de los datos y la impresión de resultados quedan fuera del
+intervalo de medición.
+
+Complejidad temporal de la búsqueda:
+    - Mejor caso: O(1), cuando el valor buscado se encuentra en la primera
+      posición del arreglo.
+    - Caso promedio: O(n), pues en promedio se recorre la mitad del arreglo.
+    - Peor caso: O(n), cuando el valor se encuentra en la última posición
+      o no está en el arreglo.
 
 Argumentos:
     argv[1]: cantidad de números que se cargarán del archivo.
 
 Ejemplo de ejecución desde la carpeta del algoritmo:
-    ./programa 1000000 < ../numeros10millones.txt
+    ./programa 1000000
 
 Requiere:
-    ../../tiempos/tiempo.h
-    ../../tiempos/tiempo.c
+    ../../analisis/tiempo.h
+    ../../analisis/tiempo.c
 */
 
 #include <stdio.h>
 #include <stdlib.h>
 #include <errno.h>
-#include "../../tiempos/tiempo.h"
+#include "../../analisis/tiempo.h"
 
 #define CANTIDAD_BUSQUEDAS 20
 #define MAX_NUMEROS 10000000
@@ -47,12 +54,11 @@ int main(int argc, char *argv[])
 
     /* Valores que se deben buscar, según la práctica. */
     const int buscados[CANTIDAD_BUSQUEDAS] = {
-        322486,     14700764,   3128036,    6337399,
-        61396,      10393545,   2147445644, 1295390003,
-        450057883,  187645041,  1980098116, 152503,
-        5000,       1493283650, 214826,     1843349527,
-        1360839354, 2109248666, 2147470852, 0
-    };
+        322486, 14700764, 3128036, 6337399,
+        61396, 10393545, 2147445644, 1295390003,
+        450057883, 187645041, 1980098116, 152503,
+        5000, 1493283650, 214826, 1843349527,
+        1360839354, 2109248666, 2147470852, 0};
 
     /* Resultados de cada búsqueda. */
     int posiciones[CANTIDAD_BUSQUEDAS];
@@ -74,10 +80,8 @@ int main(int argc, char *argv[])
     if (argc != 2)
     {
         fprintf(stderr,
-                "Uso: %s n < archivo.txt\n"
-                "Ejemplo: %s 1000000 < ../numeros10millones.txt\n",
-                argv[0], argv[0]);
-
+                "Uso: %s n\n"
+                "Ejemplo: %s 10000000\n", argv[0], argv[0]);
         return 1;
     }
 
@@ -108,19 +112,29 @@ int main(int argc, char *argv[])
         return 1;
     }
 
-    /* 4. Leer los primeros n números de la entrada estándar. */
+/* 4. Leer los primeros n números desde el archivo. */
+    FILE *archivoNumeros = fopen("../10MDesordenados.txt", "r");
+    if (archivoNumeros == NULL)
+    {
+        fprintf(stderr, "Error: no se pudo abrir el archivo de datos.\n");
+        free(A);
+        return 1;
+    }
+
     for (int i = 0; i < n; i++)
     {
-        if (scanf("%d", &A[i]) != 1)
+        if (fscanf(archivoNumeros, "%d", &A[i]) != 1)
         {
             fprintf(stderr,
                     "Error: no se pudo leer el numero %d del archivo.\n",
                     i + 1);
 
+            fclose(archivoNumeros);
             free(A);
             return 1;
         }
     }
+    fclose(archivoNumeros);
 
     /* 5. Realizar las 20 búsquedas y medir cada una. */
     for (int j = 0; j < CANTIDAD_BUSQUEDAS; j++)
@@ -140,22 +154,22 @@ int main(int argc, char *argv[])
         sumaSys += tiemposSys[j];
     }
 
-    /* 6. Mostrar los resultados individuales. */
+    /* 6. Mostrar si se encontró cada número. */
     printf("\n================ BUSQUEDAS ================\n");
     printf("Algoritmo: Busqueda lineal\n");
-    printf("Tamano de n: %d\n", n);
-    printf("Los indices comienzan en 0; -1 significa no encontrado.\n\n");
-
-    printf("Buscado\tIndice\tReal(s)\tUser(s)\tSys(s)\n");
+    printf("Tamano de n: %d\n\n", n);
 
     for (int j = 0; j < CANTIDAD_BUSQUEDAS; j++)
     {
-        printf("%d\t%d\t%.10f\t%.10f\t%.10f\n",
-               buscados[j],
-               posiciones[j],
-               tiemposReal[j],
-               tiemposUser[j],
-               tiemposSys[j]);
+        if (posiciones[j] != -1)
+        {
+            printf("Numero %d: SI encontrado, indice %d.\n",
+                   buscados[j], posiciones[j]);
+        }
+        else
+        {
+            printf("Numero %d: NO encontrado.\n", buscados[j]);
+        }
     }
 
     /* 7. Calcular y mostrar los tiempos promedio. */
