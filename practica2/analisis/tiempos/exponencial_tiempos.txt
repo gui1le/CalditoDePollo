@@ -1,0 +1,211 @@
+=== RESULTADOS Y TIEMPOS PROMEDIO: exponencial ===
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda exponencial
+Tamano de n: 1000000
+
+numeros no encontrados:
+14700764, 61396, 2147445644, 1295390003, 450057883, 187645041, 1980098116, 152503, 5000, 1493283650, 214826, 1843349527, 1360839354, 2109248666, 2147470852
+
+numeros si encontrados:
+322486 en #pasos), 3128036 en #pasos), 6337399 en #pasos), 10393545 en #pasos), 0 en #pasos)
+
+================ RESULTADOS ================
+Algoritmo: Busqueda exponencial
+N consultadas: 1000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0000173450 s
+user promedio (CPU en usuario)     : 0.0000024000 s
+sys promedio (CPU en sistema)      : 0.0000063000 s
+CPU/Wall                          : 50.1586870103 %
+============================================
+
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda exponencial
+Tamano de n: 2000000
+
+numeros no encontrados:
+14700764, 61396, 2147445644, 1295390003, 450057883, 187645041, 1980098116, 152503, 5000, 1493283650, 214826, 1843349527, 1360839354, 2109248666, 2147470852
+
+numeros si encontrados:
+322486 en #pasos), 3128036 en #pasos), 6337399 en #pasos), 10393545 en #pasos), 0 en #pasos)
+
+================ RESULTADOS ================
+Algoritmo: Busqueda exponencial
+N consultadas: 2000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0000173569 s
+user promedio (CPU en usuario)     : 0.0000025500 s
+sys promedio (CPU en sistema)      : 0.0000060500 s
+CPU/Wall                          : 49.5480967033 %
+============================================
+
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda exponencial
+Tamano de n: 3000000
+
+numeros no encontrados:
+14700764, 61396, 2147445644, 1295390003, 450057883, 187645041, 1980098116, 152503, 5000, 1493283650, 214826, 1843349527, 1360839354, 2109248666, 2147470852
+
+numeros si encontrados:
+322486 en #pasos), 3128036 en #pasos), 6337399 en #pasos), 10393545 en #pasos), 0 en #pasos)
+
+================ RESULTADOS ================
+Algoritmo: Busqueda exponencial
+N consultadas: 3000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0000170350 s
+user promedio (CPU en usuario)     : 0.0000024500 s
+sys promedio (CPU en sistema)      : 0.0000056500 s
+CPU/Wall                          : 47.5491426172 %
+============================================
+
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda exponencial
+Tamano de n: 4000000
+
+numeros no encontrados:
+14700764, 61396, 2147445644, 1295390003, 450057883, 187645041, 1980098116, 152503, 5000, 1493283650, 214826, 1843349527, 1360839354, 2109248666, 2147470852
+
+numeros si encontrados:
+322486 en #pasos), 3128036 en #pasos), 6337399 en #pasos), 10393545 en #pasos), 0 en #pasos)
+
+================ RESULTADOS ================
+Algoritmo: Busqueda exponencial
+N consultadas: 4000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0000187039 s
+user promedio (CPU en usuario)     : 0.0000025500 s
+sys promedio (CPU en sistema)      : 0.0000067500 s
+CPU/Wall                          : 49.7221506692 %
+============================================
+
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda exponencial
+Tamano de n: 5000000
+
+numeros no encontrados:
+14700764, 61396, 2147445644, 1295390003, 450057883, 187645041, 1980098116, 152503, 5000, 1493283650, 214826, 1843349527, 1360839354, 2109248666, 2147470852
+
+numeros si encontrados:
+322486 en #pasos), 3128036 en #pasos), 6337399 en #pasos), 10393545 en #pasos), 0 en #pasos)
+
+================ RESULTADOS ================
+Algoritmo: Busqueda exponencial
+N consultadas: 5000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0000161529 s
+user promedio (CPU en usuario)     : 0.0000022000 s
+sys promedio (CPU en sistema)      : 0.0000058000 s
+CPU/Wall                          : 49.5268369004 %
+============================================
+
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda exponencial
+Tamano de n: 6000000
+
+numeros no encontrados:
+14700764, 61396, 2147445644, 1295390003, 450057883, 187645041, 1980098116, 152503, 5000, 1493283650, 214826, 1843349527, 1360839354, 2109248666, 2147470852
+
+numeros si encontrados:
+322486 en #pasos), 3128036 en #pasos), 6337399 en #pasos), 10393545 en #pasos), 0 en #pasos)
+
+================ RESULTADOS ================
+Algoritmo: Busqueda exponencial
+N consultadas: 6000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0000177026 s
+user promedio (CPU en usuario)     : 0.0000025500 s
+sys promedio (CPU en sistema)      : 0.0000063500 s
+CPU/Wall                          : 50.2751590572 %
+============================================
+
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda exponencial
+Tamano de n: 7000000
+
+numeros no encontrados:
+14700764, 61396, 2147445644, 450057883, 187645041, 1980098116, 152503, 5000, 214826, 1843349527, 1360839354, 2109248666, 2147470852
+
+numeros si encontrados:
+322486 en #pasos), 3128036 en #pasos), 6337399 en #pasos), 10393545 en #pasos), 1295390003 en #pasos), 1493283650 en #pasos), 0 en #pasos)
+
+================ RESULTADOS ================
+Algoritmo: Busqueda exponencial
+N consultadas: 7000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0000166535 s
+user promedio (CPU en usuario)     : 0.0000026000 s
+sys promedio (CPU en sistema)      : 0.0000059500 s
+CPU/Wall                          : 51.3404426628 %
+============================================
+
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda exponencial
+Tamano de n: 8000000
+
+numeros no encontrados:
+14700764, 61396, 2147445644, 450057883, 187645041, 1980098116, 152503, 5000, 214826, 1843349527, 1360839354, 2109248666, 2147470852
+
+numeros si encontrados:
+322486 en #pasos), 3128036 en #pasos), 6337399 en #pasos), 10393545 en #pasos), 1295390003 en #pasos), 1493283650 en #pasos), 0 en #pasos)
+
+================ RESULTADOS ================
+Algoritmo: Busqueda exponencial
+N consultadas: 8000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0000208378 s
+user promedio (CPU en usuario)     : 0.0000028000 s
+sys promedio (CPU en sistema)      : 0.0000063500 s
+CPU/Wall                          : 43.9106196796 %
+============================================
+
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda exponencial
+Tamano de n: 9000000
+
+numeros no encontrados:
+14700764, 61396, 2147445644, 450057883, 187645041, 1980098116, 152503, 5000, 214826, 1360839354, 2109248666, 2147470852
+
+numeros si encontrados:
+322486 en #pasos), 3128036 en #pasos), 6337399 en #pasos), 10393545 en #pasos), 1295390003 en #pasos), 1493283650 en #pasos), 1843349527 en #pasos), 0 en #pasos)
+
+================ RESULTADOS ================
+Algoritmo: Busqueda exponencial
+N consultadas: 9000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0000175834 s
+user promedio (CPU en usuario)     : 0.0000027000 s
+sys promedio (CPU en sistema)      : 0.0000060500 s
+CPU/Wall                          : 49.7629288136 %
+============================================
+
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda exponencial
+Tamano de n: 10000000
+
+numeros no encontrados:
+14700764, 61396, 2147445644, 450057883, 187645041, 1980098116, 152503, 5000, 214826, 1360839354
+
+numeros si encontrados:
+322486 en #pasos), 3128036 en #pasos), 6337399 en #pasos), 10393545 en #pasos), 1295390003 en #pasos), 1493283650 en #pasos), 1843349527 en #pasos), 2109248666 en #pasos), 2147470852 en #pasos), 0 en #pasos)
+
+================ RESULTADOS ================
+Algoritmo: Busqueda exponencial
+N consultadas: 10000000
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0000174999 s
+user promedio (CPU en usuario)     : 0.0000026000 s
+sys promedio (CPU en sistema)      : 0.0000061000 s
+CPU/Wall                          : 49.7145024523 %
+============================================
+
