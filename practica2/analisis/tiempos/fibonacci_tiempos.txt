@@ -14,10 +14,10 @@ numeros si encontrados:
 Algoritmo: Busqueda de Fibonacci
 N consultadas: 1000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000174522 s
-user promedio (CPU en usuario)     : 0.0000022500 s
-sys promedio (CPU en sistema)      : 0.0000066000 s
-CPU/Wall                          : 50.7098229508 %
+real promedio (Tiempo total)       : 0.0000200629 s
+user promedio (CPU en usuario)     : 0.0000029500 s
+sys promedio (CPU en sistema)      : 0.0000077000 s
+CPU/Wall                          : 53.0829918004 %
 ============================================
 
 
@@ -35,10 +35,10 @@ numeros si encontrados:
 Algoritmo: Busqueda de Fibonacci
 N consultadas: 2000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000165939 s
-user promedio (CPU en usuario)     : 0.0000024000 s
-sys promedio (CPU en sistema)      : 0.0000051000 s
-CPU/Wall                          : 45.1972413793 %
+real promedio (Tiempo total)       : 0.0000178695 s
+user promedio (CPU en usuario)     : 0.0000026500 s
+sys promedio (CPU en sistema)      : 0.0000063500 s
+CPU/Wall                          : 50.3652248165 %
 ============================================
 
 
@@ -56,10 +56,10 @@ numeros si encontrados:
 Algoritmo: Busqueda de Fibonacci
 N consultadas: 3000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000154018 s
-user promedio (CPU en usuario)     : 0.0000023500 s
-sys promedio (CPU en sistema)      : 0.0000061000 s
-CPU/Wall                          : 54.8635739938 %
+real promedio (Tiempo total)       : 0.0000175476 s
+user promedio (CPU en usuario)     : 0.0000025000 s
+sys promedio (CPU en sistema)      : 0.0000062500 s
+CPU/Wall                          : 49.8643478261 %
 ============================================
 
 
@@ -77,10 +77,10 @@ numeros si encontrados:
 Algoritmo: Busqueda de Fibonacci
 N consultadas: 4000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000212431 s
-user promedio (CPU en usuario)     : 0.0000026500 s
-sys promedio (CPU en sistema)      : 0.0000070000 s
-CPU/Wall                          : 45.4265248036 %
+real promedio (Tiempo total)       : 0.0000177503 s
+user promedio (CPU en usuario)     : 0.0000024500 s
+sys promedio (CPU en sistema)      : 0.0000067000 s
+CPU/Wall                          : 51.5485313633 %
 ============================================
 
 
@@ -98,10 +98,10 @@ numeros si encontrados:
 Algoritmo: Busqueda de Fibonacci
 N consultadas: 5000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000166535 s
-user promedio (CPU en usuario)     : 0.0000023000 s
-sys promedio (CPU en sistema)      : 0.0000058000 s
-CPU/Wall                          : 48.6383141017 %
+real promedio (Tiempo total)       : 0.0000187993 s
+user promedio (CPU en usuario)     : 0.0000028500 s
+sys promedio (CPU en sistema)      : 0.0000069500 s
+CPU/Wall                          : 52.1295868104 %
 ============================================
 
 
@@ -119,10 +119,10 @@ numeros si encontrados:
 Algoritmo: Busqueda de Fibonacci
 N consultadas: 6000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000170469 s
-user promedio (CPU en usuario)     : 0.0000023500 s
-sys promedio (CPU en sistema)      : 0.0000061000 s
-CPU/Wall                          : 49.5690472727 %
+real promedio (Tiempo total)       : 0.0000181675 s
+user promedio (CPU en usuario)     : 0.0000026500 s
+sys promedio (CPU en sistema)      : 0.0000066500 s
+CPU/Wall                          : 51.1903244094 %
 ============================================
 
 
@@ -140,10 +140,10 @@ numeros si encontrados:
 Algoritmo: Busqueda de Fibonacci
 N consultadas: 7000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000174999 s
-user promedio (CPU en usuario)     : 0.0000026500 s
-sys promedio (CPU en sistema)      : 0.0000065500 s
-CPU/Wall                          : 52.5716577657 %
+real promedio (Tiempo total)       : 0.0000172973 s
+user promedio (CPU en usuario)     : 0.0000024500 s
+sys promedio (CPU en sistema)      : 0.0000062500 s
+CPU/Wall                          : 50.2969604411 %
 ============================================
 
 
@@ -161,10 +161,10 @@ numeros si encontrados:
 Algoritmo: Busqueda de Fibonacci
 N consultadas: 8000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000176191 s
-user promedio (CPU en usuario)     : 0.0000026000 s
-sys promedio (CPU en sistema)      : 0.0000063500 s
-CPU/Wall                          : 50.7970511502 %
+real promedio (Tiempo total)       : 0.0000204325 s
+user promedio (CPU en usuario)     : 0.0000032500 s
+sys promedio (CPU en sistema)      : 0.0000083000 s
+CPU/Wall                          : 56.5276676780 %
 ============================================
 
 
@@ -182,10 +182,10 @@ numeros si encontrados:
 Algoritmo: Busqueda de Fibonacci
 N consultadas: 9000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000200033 s
-user promedio (CPU en usuario)     : 0.0000030500 s
-sys promedio (CPU en sistema)      : 0.0000076500 s
-CPU/Wall                          : 53.4911237187 %
+real promedio (Tiempo total)       : 0.0000198483 s
+user promedio (CPU en usuario)     : 0.0000032500 s
+sys promedio (CPU en sistema)      : 0.0000078000 s
+CPU/Wall                          : 55.6721431832 %
 ============================================
 
 
@@ -203,9 +203,9 @@ numeros si encontrados:
 Algoritmo: Busqueda de Fibonacci
 N consultadas: 10000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000190139 s
-user promedio (CPU en usuario)     : 0.0000028500 s
-sys promedio (CPU en sistema)      : 0.0000068500 s
-CPU/Wall                          : 51.0153589969 %
+real promedio (Tiempo total)       : 0.0000194907 s
+user promedio (CPU en usuario)     : 0.0000030500 s
+sys promedio (CPU en sistema)      : 0.0000074000 s
+CPU/Wall                          : 53.6152621407 %
 ============================================
 

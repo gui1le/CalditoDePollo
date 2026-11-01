@@ -14,10 +14,10 @@ numeros si encontrados:
 Algoritmo: Busqueda en ABB
 N consultadas: 1000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000222564 s
-user promedio (CPU en usuario)     : 0.0000033500 s
-sys promedio (CPU en sistema)      : 0.0000090000 s
-CPU/Wall                          : 55.4897208356 %
+real promedio (Tiempo total)       : 0.0000227571 s
+user promedio (CPU en usuario)     : 0.0000030000 s
+sys promedio (CPU en sistema)      : 0.0000102000 s
+CPU/Wall                          : 58.0039945521 %
 ============================================
 
 
@@ -35,10 +35,10 @@ numeros si encontrados:
 Algoritmo: Busqueda en ABB
 N consultadas: 2000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000198960 s
-user promedio (CPU en usuario)     : 0.0000029000 s
-sys promedio (CPU en sistema)      : 0.0000077500 s
-CPU/Wall                          : 53.5282655482 %
+real promedio (Tiempo total)       : 0.0000217557 s
+user promedio (CPU en usuario)     : 0.0000031500 s
+sys promedio (CPU en sistema)      : 0.0000093500 s
+CPU/Wall                          : 57.4562191781 %
 ============================================
 
 
@@ -56,10 +56,10 @@ numeros si encontrados:
 Algoritmo: Busqueda en ABB
 N consultadas: 3000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000194907 s
-user promedio (CPU en usuario)     : 0.0000028500 s
-sys promedio (CPU en sistema)      : 0.0000076000 s
-CPU/Wall                          : 53.6152621406 %
+real promedio (Tiempo total)       : 0.0000201941 s
+user promedio (CPU en usuario)     : 0.0000027000 s
+sys promedio (CPU en sistema)      : 0.0000085000 s
+CPU/Wall                          : 55.4618710744 %
 ============================================
 
 
@@ -77,10 +77,10 @@ numeros si encontrados:
 Algoritmo: Busqueda en ABB
 N consultadas: 4000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000204921 s
-user promedio (CPU en usuario)     : 0.0000031500 s
-sys promedio (CPU en sistema)      : 0.0000084000 s
-CPU/Wall                          : 56.3632474694 %
+real promedio (Tiempo total)       : 0.0000222564 s
+user promedio (CPU en usuario)     : 0.0000035500 s
+sys promedio (CPU en sistema)      : 0.0000093000 s
+CPU/Wall                          : 57.7362682377 %
 ============================================
 
 
@@ -98,10 +98,10 @@ numeros si encontrados:
 Algoritmo: Busqueda en ABB
 N consultadas: 5000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000215411 s
-user promedio (CPU en usuario)     : 0.0000033000 s
-sys promedio (CPU en sistema)      : 0.0000089500 s
-CPU/Wall                          : 56.8679845048 %
+real promedio (Tiempo total)       : 0.0000237226 s
+user promedio (CPU en usuario)     : 0.0000036000 s
+sys promedio (CPU en sistema)      : 0.0000094500 s
+CPU/Wall                          : 55.0107208040 %
 ============================================
 
 
@@ -119,10 +119,10 @@ numeros si encontrados:
 Algoritmo: Busqueda en ABB
 N consultadas: 6000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000248075 s
-user promedio (CPU en usuario)     : 0.0000031000 s
-sys promedio (CPU en sistema)      : 0.0000101000 s
-CPU/Wall                          : 53.2098152811 %
+real promedio (Tiempo total)       : 0.0000230074 s
+user promedio (CPU en usuario)     : 0.0000034500 s
+sys promedio (CPU en sistema)      : 0.0000092500 s
+CPU/Wall                          : 55.1996484974 %
 ============================================
 
 
@@ -140,10 +140,10 @@ numeros si encontrados:
 Algoritmo: Busqueda en ABB
 N consultadas: 7000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000236034 s
+real promedio (Tiempo total)       : 0.0000195503 s
 user promedio (CPU en usuario)     : 0.0000032000 s
-sys promedio (CPU en sistema)      : 0.0000088000 s
-CPU/Wall                          : 50.8400484849 %
+sys promedio (CPU en sistema)      : 0.0000081000 s
+CPU/Wall                          : 57.7995551220 %
 ============================================
 
 
@@ -161,10 +161,10 @@ numeros si encontrados:
 Algoritmo: Busqueda en ABB
 N consultadas: 8000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000211000 s
-user promedio (CPU en usuario)     : 0.0000032500 s
-sys promedio (CPU en sistema)      : 0.0000089500 s
-CPU/Wall                          : 57.8197839546 %
+real promedio (Tiempo total)       : 0.0000207782 s
+user promedio (CPU en usuario)     : 0.0000031500 s
+sys promedio (CPU en sistema)      : 0.0000083000 s
+CPU/Wall                          : 55.1058873209 %
 ============================================
 
 
@@ -182,10 +182,10 @@ numeros si encontrados:
 Algoritmo: Busqueda en ABB
 N consultadas: 9000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000204086 s
-user promedio (CPU en usuario)     : 0.0000033000 s
-sys promedio (CPU en sistema)      : 0.0000086000 s
-CPU/Wall                          : 58.3086654206 %
+real promedio (Tiempo total)       : 0.0000210404 s
+user promedio (CPU en usuario)     : 0.0000037000 s
+sys promedio (CPU en sistema)      : 0.0000081500 s
+CPU/Wall                          : 56.3201160341 %
 ============================================
 
 
@@ -203,9 +203,9 @@ numeros si encontrados:
 Algoritmo: Busqueda en ABB
 N consultadas: 10000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000216961 s
-user promedio (CPU en usuario)     : 0.0000032500 s
-sys promedio (CPU en sistema)      : 0.0000089500 s
-CPU/Wall                          : 56.2313283517 %
+real promedio (Tiempo total)       : 0.0000194907 s
+user promedio (CPU en usuario)     : 0.0000029000 s
+sys promedio (CPU en sistema)      : 0.0000074500 s
+CPU/Wall                          : 53.1021974310 %
 ============================================
 

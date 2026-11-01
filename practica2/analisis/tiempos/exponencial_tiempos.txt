@@ -14,10 +14,10 @@ numeros si encontrados:
 Algoritmo: Busqueda exponencial
 N consultadas: 1000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000173450 s
-user promedio (CPU en usuario)     : 0.0000024000 s
-sys promedio (CPU en sistema)      : 0.0000063000 s
-CPU/Wall                          : 50.1586870103 %
+real promedio (Tiempo total)       : 0.0000169992 s
+user promedio (CPU en usuario)     : 0.0000023000 s
+sys promedio (CPU en sistema)      : 0.0000061000 s
+CPU/Wall                          : 49.4139601683 %
 ============================================
 
 
@@ -35,10 +35,10 @@ numeros si encontrados:
 Algoritmo: Busqueda exponencial
 N consultadas: 2000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000173569 s
-user promedio (CPU en usuario)     : 0.0000025500 s
-sys promedio (CPU en sistema)      : 0.0000060500 s
-CPU/Wall                          : 49.5480967033 %
+real promedio (Tiempo total)       : 0.0000166059 s
+user promedio (CPU en usuario)     : 0.0000023500 s
+sys promedio (CPU en sistema)      : 0.0000055000 s
+CPU/Wall                          : 47.2724858579 %
 ============================================
 
 
@@ -56,10 +56,10 @@ numeros si encontrados:
 Algoritmo: Busqueda exponencial
 N consultadas: 3000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000170350 s
-user promedio (CPU en usuario)     : 0.0000024500 s
-sys promedio (CPU en sistema)      : 0.0000056500 s
-CPU/Wall                          : 47.5491426172 %
+real promedio (Tiempo total)       : 0.0000168443 s
+user promedio (CPU en usuario)     : 0.0000024000 s
+sys promedio (CPU en sistema)      : 0.0000056000 s
+CPU/Wall                          : 47.4938881812 %
 ============================================
 
 
@@ -77,10 +77,10 @@ numeros si encontrados:
 Algoritmo: Busqueda exponencial
 N consultadas: 4000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000187039 s
-user promedio (CPU en usuario)     : 0.0000025500 s
-sys promedio (CPU en sistema)      : 0.0000067500 s
-CPU/Wall                          : 49.7221506692 %
+real promedio (Tiempo total)       : 0.0000185609 s
+user promedio (CPU en usuario)     : 0.0000028000 s
+sys promedio (CPU en sistema)      : 0.0000069500 s
+CPU/Wall                          : 52.5298188825 %
 ============================================
 
 
@@ -98,10 +98,10 @@ numeros si encontrados:
 Algoritmo: Busqueda exponencial
 N consultadas: 5000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000161529 s
-user promedio (CPU en usuario)     : 0.0000022000 s
-sys promedio (CPU en sistema)      : 0.0000058000 s
-CPU/Wall                          : 49.5268369004 %
+real promedio (Tiempo total)       : 0.0000146985 s
+user promedio (CPU en usuario)     : 0.0000022500 s
+sys promedio (CPU en sistema)      : 0.0000050500 s
+CPU/Wall                          : 49.6649135442 %
 ============================================
 
 
@@ -119,10 +119,10 @@ numeros si encontrados:
 Algoritmo: Busqueda exponencial
 N consultadas: 6000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000177026 s
-user promedio (CPU en usuario)     : 0.0000025500 s
-sys promedio (CPU en sistema)      : 0.0000063500 s
-CPU/Wall                          : 50.2751590572 %
+real promedio (Tiempo total)       : 0.0000175476 s
+user promedio (CPU en usuario)     : 0.0000023500 s
+sys promedio (CPU en sistema)      : 0.0000065000 s
+CPU/Wall                          : 50.4342260869 %
 ============================================
 
 
@@ -140,10 +140,10 @@ numeros si encontrados:
 Algoritmo: Busqueda exponencial
 N consultadas: 7000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000166535 s
+real promedio (Tiempo total)       : 0.0000178576 s
 user promedio (CPU en usuario)     : 0.0000026000 s
-sys promedio (CPU en sistema)      : 0.0000059500 s
-CPU/Wall                          : 51.3404426628 %
+sys promedio (CPU en sistema)      : 0.0000062500 s
+CPU/Wall                          : 49.5588656876 %
 ============================================
 
 
@@ -161,10 +161,10 @@ numeros si encontrados:
 Algoritmo: Busqueda exponencial
 N consultadas: 8000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000208378 s
-user promedio (CPU en usuario)     : 0.0000028000 s
-sys promedio (CPU en sistema)      : 0.0000063500 s
-CPU/Wall                          : 43.9106196796 %
+real promedio (Tiempo total)       : 0.0000183582 s
+user promedio (CPU en usuario)     : 0.0000029000 s
+sys promedio (CPU en sistema)      : 0.0000064000 s
+CPU/Wall                          : 50.6584768831 %
 ============================================
 
 
@@ -182,10 +182,10 @@ numeros si encontrados:
 Algoritmo: Busqueda exponencial
 N consultadas: 9000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000175834 s
-user promedio (CPU en usuario)     : 0.0000027000 s
-sys promedio (CPU en sistema)      : 0.0000060500 s
-CPU/Wall                          : 49.7629288136 %
+real promedio (Tiempo total)       : 0.0000162482 s
+user promedio (CPU en usuario)     : 0.0000024000 s
+sys promedio (CPU en sistema)      : 0.0000059000 s
+CPU/Wall                          : 51.0824991930 %
 ============================================
 
 
@@ -203,9 +203,9 @@ numeros si encontrados:
 Algoritmo: Busqueda exponencial
 N consultadas: 10000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000174999 s
+real promedio (Tiempo total)       : 0.0000175476 s
 user promedio (CPU en usuario)     : 0.0000026000 s
-sys promedio (CPU en sistema)      : 0.0000061000 s
-CPU/Wall                          : 49.7145024523 %
+sys promedio (CPU en sistema)      : 0.0000065000 s
+CPU/Wall                          : 51.8589217391 %
 ============================================
 

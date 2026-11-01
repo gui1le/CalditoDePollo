@@ -14,10 +14,10 @@ numeros si encontrados:
 Algoritmo: Busqueda binaria
 N consultadas: 1000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000161409 s
-user promedio (CPU en usuario)     : 0.0000023500 s
-sys promedio (CPU en sistema)      : 0.0000054500 s
-CPU/Wall                          : 48.3243296898 %
+real promedio (Tiempo total)       : 0.0000218034 s
+user promedio (CPU en usuario)     : 0.0000036500 s
+sys promedio (CPU en sistema)      : 0.0000082000 s
+CPU/Wall                          : 54.3493738655 %
 ============================================
 
 
@@ -35,10 +35,10 @@ numeros si encontrados:
 Algoritmo: Busqueda binaria
 N consultadas: 2000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000172615 s
-user promedio (CPU en usuario)     : 0.0000023500 s
-sys promedio (CPU en sistema)      : 0.0000057000 s
-CPU/Wall                          : 46.6355624309 %
+real promedio (Tiempo total)       : 0.0000191927 s
+user promedio (CPU en usuario)     : 0.0000028500 s
+sys promedio (CPU en sistema)      : 0.0000067000 s
+CPU/Wall                          : 49.7585132919 %
 ============================================
 
 
@@ -56,10 +56,10 @@ numeros si encontrados:
 Algoritmo: Busqueda binaria
 N consultadas: 3000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000177145 s
-user promedio (CPU en usuario)     : 0.0000025000 s
-sys promedio (CPU en sistema)      : 0.0000063000 s
-CPU/Wall                          : 49.6768172275 %
+real promedio (Tiempo total)       : 0.0000195980 s
+user promedio (CPU en usuario)     : 0.0000029500 s
+sys promedio (CPU en sistema)      : 0.0000075500 s
+CPU/Wall                          : 53.5768759124 %
 ============================================
 
 
@@ -77,10 +77,10 @@ numeros si encontrados:
 Algoritmo: Busqueda binaria
 N consultadas: 4000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000183940 s
+real promedio (Tiempo total)       : 0.0000181675 s
 user promedio (CPU en usuario)     : 0.0000026000 s
-sys promedio (CPU en sistema)      : 0.0000071500 s
-CPU/Wall                          : 53.0064342191 %
+sys promedio (CPU en sistema)      : 0.0000071000 s
+CPU/Wall                          : 53.3920587927 %
 ============================================
 
 
@@ -98,10 +98,10 @@ numeros si encontrados:
 Algoritmo: Busqueda binaria
 N consultadas: 5000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000184536 s
-user promedio (CPU en usuario)     : 0.0000027500 s
-sys promedio (CPU en sistema)      : 0.0000070500 s
-CPU/Wall                          : 53.1061746770 %
+real promedio (Tiempo total)       : 0.0000219941 s
+user promedio (CPU en usuario)     : 0.0000032000 s
+sys promedio (CPU en sistema)      : 0.0000091000 s
+CPU/Wall                          : 55.9240533333 %
 ============================================
 
 
@@ -119,10 +119,10 @@ numeros si encontrados:
 Algoritmo: Busqueda binaria
 N consultadas: 6000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000173092 s
-user promedio (CPU en usuario)     : 0.0000025000 s
-sys promedio (CPU en sistema)      : 0.0000066500 s
-CPU/Wall                          : 52.8620958678 %
+real promedio (Tiempo total)       : 0.0000249028 s
+user promedio (CPU en usuario)     : 0.0000033500 s
+sys promedio (CPU en sistema)      : 0.0000119000 s
+CPU/Wall                          : 61.2380430828 %
 ============================================
 
 
@@ -140,10 +140,10 @@ numeros si encontrados:
 Algoritmo: Busqueda binaria
 N consultadas: 7000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000196576 s
-user promedio (CPU en usuario)     : 0.0000026500 s
-sys promedio (CPU en sistema)      : 0.0000082500 s
-CPU/Wall                          : 55.4492584597 %
+real promedio (Tiempo total)       : 0.0000226021 s
+user promedio (CPU en usuario)     : 0.0000031500 s
+sys promedio (CPU en sistema)      : 0.0000097500 s
+CPU/Wall                          : 57.0743898734 %
 ============================================
 
 
@@ -161,10 +161,10 @@ numeros si encontrados:
 Algoritmo: Busqueda binaria
 N consultadas: 8000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000178933 s
-user promedio (CPU en usuario)     : 0.0000027500 s
-sys promedio (CPU en sistema)      : 0.0000065500 s
-CPU/Wall                          : 51.9747197868 %
+real promedio (Tiempo total)       : 0.0000204086 s
+user promedio (CPU en usuario)     : 0.0000030500 s
+sys promedio (CPU en sistema)      : 0.0000086000 s
+CPU/Wall                          : 57.0836934580 %
 ============================================
 
 
@@ -182,10 +182,10 @@ numeros si encontrados:
 Algoritmo: Busqueda binaria
 N consultadas: 9000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000178576 s
-user promedio (CPU en usuario)     : 0.0000028000 s
-sys promedio (CPU en sistema)      : 0.0000060000 s
-CPU/Wall                          : 49.2788720961 %
+real promedio (Tiempo total)       : 0.0000206828 s
+user promedio (CPU en usuario)     : 0.0000035500 s
+sys promedio (CPU en sistema)      : 0.0000081000 s
+CPU/Wall                          : 56.3269643804 %
 ============================================
 
 
@@ -203,9 +203,9 @@ numeros si encontrados:
 Algoritmo: Busqueda binaria
 N consultadas: 10000000
 Busquedas realizadas: 20
-real promedio (Tiempo total)       : 0.0000174999 s
-user promedio (CPU en usuario)     : 0.0000026000 s
-sys promedio (CPU en sistema)      : 0.0000065500 s
-CPU/Wall                          : 52.2859422343 %
+real promedio (Tiempo total)       : 0.0000251412 s
+user promedio (CPU en usuario)     : 0.0000035500 s
+sys promedio (CPU en sistema)      : 0.0000117000 s
+CPU/Wall                          : 60.6573124704 %
 ============================================
 
