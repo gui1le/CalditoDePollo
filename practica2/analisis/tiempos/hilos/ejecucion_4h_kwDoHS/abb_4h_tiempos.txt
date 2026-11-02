@@ -1,0 +1,547 @@
+=== RESULTADOS: abb | HILOS: 4 ===
+Fuente: abbHilos.c
+Compilacion: gcc -std=gnu11 -Wall -Wextra -pthread
+Cada n se ejecuta una vez; los programas por lote usan su repeticion predeterminada (1).
+Medida: lote de 20 consultas y tiempo amortizado por consulta.
+Las versiones y comparaciones mostradas son las incluidas en el fuente.
+
+=== PRUEBA n = 1000000 | HILOS = 4 ===
+
+================ BUSQUEDAS ================
+Algoritmo: ABB con consultas distribuidas entre hilos
+Tamano de n: 1000000
+Hilos: 4
+
+Numeros NO encontrados:
+Numero 322486: NO encontrado; nodos visitados: 36.
+Numero 14700764: NO encontrado; nodos visitados: 17.
+Numero 3128036: NO encontrado; nodos visitados: 24.
+Numero 6337399: NO encontrado; nodos visitados: 26.
+Numero 61396: NO encontrado; nodos visitados: 26.
+Numero 10393545: NO encontrado; nodos visitados: 23.
+Numero 2147445644: NO encontrado; nodos visitados: 15.
+Numero 1295390003: NO encontrado; nodos visitados: 33.
+Numero 450057883: NO encontrado; nodos visitados: 23.
+Numero 187645041: NO encontrado; nodos visitados: 22.
+Numero 1980098116: NO encontrado; nodos visitados: 19.
+Numero 152503: NO encontrado; nodos visitados: 20.
+Numero 5000: NO encontrado; nodos visitados: 22.
+Numero 214826: NO encontrado; nodos visitados: 30.
+Numero 1843349527: NO encontrado; nodos visitados: 24.
+Numero 1360839354: NO encontrado; nodos visitados: 30.
+Numero 2109248666: NO encontrado; nodos visitados: 27.
+Numero 2147470852: NO encontrado; nodos visitados: 13.
+Numero 0: NO encontrado; nodos visitados: 22.
+
+Numeros SI encontrados:
+Numero 1493283650: SI encontrado; nodos visitados: 26.
+
+================ RESULTADOS ================
+Repeticiones por version: 1
+Consultas por lote: 20
+Respuestas y pasos: coinciden en ambas versiones.
+
+Version: sin hilos (lote serial)
+real promedio del lote de 20       : 0.0000109673 s
+real amortizado por consulta       : 0.0000005484 s
+user amortizado por consulta       : 0.0000007500 s
+sys amortizado por consulta        : 0.0000001000 s
+CPU/Wall                          : 155.0068869564 %
+
+Version: con hilos (lote paralelo)
+real promedio del lote de 20       : 0.0002939701 s
+real amortizado por consulta       : 0.0000146985 s
+user amortizado por consulta       : 0.0000088000 s
+sys amortizado por consulta        : 0.0000007000 s
+CPU/Wall                          : 64.6324217356 %
+
+Aceleracion del lote (sin/con): 0.037307 x
+Reduccion de tiempo del lote: -2580.4348 %
+Nota: menos de 1x significa que los hilos tardaron mas.
+
+=== PRUEBA n = 2000000 | HILOS = 4 ===
+
+================ BUSQUEDAS ================
+Algoritmo: ABB con consultas distribuidas entre hilos
+Tamano de n: 2000000
+Hilos: 4
+
+Numeros NO encontrados:
+Numero 322486: NO encontrado; nodos visitados: 37.
+Numero 14700764: NO encontrado; nodos visitados: 17.
+Numero 6337399: NO encontrado; nodos visitados: 27.
+Numero 61396: NO encontrado; nodos visitados: 27.
+Numero 10393545: NO encontrado; nodos visitados: 25.
+Numero 2147445644: NO encontrado; nodos visitados: 15.
+Numero 1295390003: NO encontrado; nodos visitados: 34.
+Numero 450057883: NO encontrado; nodos visitados: 25.
+Numero 187645041: NO encontrado; nodos visitados: 23.
+Numero 1980098116: NO encontrado; nodos visitados: 19.
+Numero 152503: NO encontrado; nodos visitados: 23.
+Numero 5000: NO encontrado; nodos visitados: 22.
+Numero 214826: NO encontrado; nodos visitados: 31.
+Numero 1843349527: NO encontrado; nodos visitados: 25.
+Numero 1360839354: NO encontrado; nodos visitados: 32.
+Numero 2109248666: NO encontrado; nodos visitados: 27.
+Numero 2147470852: NO encontrado; nodos visitados: 17.
+Numero 0: NO encontrado; nodos visitados: 24.
+
+Numeros SI encontrados:
+Numero 3128036: SI encontrado; nodos visitados: 26.
+Numero 1493283650: SI encontrado; nodos visitados: 26.
+
+================ RESULTADOS ================
+Repeticiones por version: 1
+Consultas por lote: 20
+Respuestas y pasos: coinciden en ambas versiones.
+
+Version: sin hilos (lote serial)
+real promedio del lote de 20       : 0.0000150204 s
+real amortizado por consulta       : 0.0000007510 s
+user amortizado por consulta       : 0.0000009000 s
+sys amortizado por consulta        : 0.0000000500 s
+CPU/Wall                          : 126.4948825402 %
+
+Version: con hilos (lote paralelo)
+real promedio del lote de 20       : 0.0003130436 s
+real amortizado por consulta       : 0.0000156522 s
+user amortizado por consulta       : 0.0000082500 s
+sys amortizado por consulta        : 0.0000006500 s
+CPU/Wall                          : 56.8610900229 %
+
+Aceleracion del lote (sin/con): 0.047982 x
+Reduccion de tiempo del lote: -1984.1270 %
+Nota: menos de 1x significa que los hilos tardaron mas.
+
+=== PRUEBA n = 3000000 | HILOS = 4 ===
+
+================ BUSQUEDAS ================
+Algoritmo: ABB con consultas distribuidas entre hilos
+Tamano de n: 3000000
+Hilos: 4
+
+Numeros NO encontrados:
+Numero 322486: NO encontrado; nodos visitados: 39.
+Numero 14700764: NO encontrado; nodos visitados: 18.
+Numero 6337399: NO encontrado; nodos visitados: 28.
+Numero 61396: NO encontrado; nodos visitados: 28.
+Numero 10393545: NO encontrado; nodos visitados: 25.
+Numero 2147445644: NO encontrado; nodos visitados: 16.
+Numero 1295390003: NO encontrado; nodos visitados: 34.
+Numero 450057883: NO encontrado; nodos visitados: 26.
+Numero 187645041: NO encontrado; nodos visitados: 23.
+Numero 1980098116: NO encontrado; nodos visitados: 19.
+Numero 152503: NO encontrado; nodos visitados: 24.
+Numero 5000: NO encontrado; nodos visitados: 25.
+Numero 214826: NO encontrado; nodos visitados: 31.
+Numero 1360839354: NO encontrado; nodos visitados: 35.
+Numero 2109248666: NO encontrado; nodos visitados: 27.
+Numero 2147470852: NO encontrado; nodos visitados: 18.
+Numero 0: NO encontrado; nodos visitados: 25.
+
+Numeros SI encontrados:
+Numero 3128036: SI encontrado; nodos visitados: 26.
+Numero 1493283650: SI encontrado; nodos visitados: 26.
+Numero 1843349527: SI encontrado; nodos visitados: 26.
+
+================ RESULTADOS ================
+Repeticiones por version: 1
+Consultas por lote: 20
+Respuestas y pasos: coinciden en ambas versiones.
+
+Version: sin hilos (lote serial)
+real promedio del lote de 20       : 0.0000181198 s
+real amortizado por consulta       : 0.0000009060 s
+user amortizado por consulta       : 0.0000010500 s
+sys amortizado por consulta        : 0.0000001000 s
+CPU/Wall                          : 126.9328842096 %
+
+Version: con hilos (lote paralelo)
+real promedio del lote de 20       : 0.0002989769 s
+real amortizado por consulta       : 0.0000149488 s
+user amortizado por consulta       : 0.0000056500 s
+sys amortizado por consulta        : 0.0000003500 s
+CPU/Wall                          : 40.1368803828 %
+
+Aceleracion del lote (sin/con): 0.060606 x
+Reduccion de tiempo del lote: -1550.0000 %
+Nota: menos de 1x significa que los hilos tardaron mas.
+
+=== PRUEBA n = 4000000 | HILOS = 4 ===
+
+================ BUSQUEDAS ================
+Algoritmo: ABB con consultas distribuidas entre hilos
+Tamano de n: 4000000
+Hilos: 4
+
+Numeros NO encontrados:
+Numero 322486: NO encontrado; nodos visitados: 39.
+Numero 14700764: NO encontrado; nodos visitados: 18.
+Numero 6337399: NO encontrado; nodos visitados: 28.
+Numero 61396: NO encontrado; nodos visitados: 29.
+Numero 10393545: NO encontrado; nodos visitados: 26.
+Numero 2147445644: NO encontrado; nodos visitados: 16.
+Numero 1295390003: NO encontrado; nodos visitados: 35.
+Numero 450057883: NO encontrado; nodos visitados: 27.
+Numero 187645041: NO encontrado; nodos visitados: 23.
+Numero 1980098116: NO encontrado; nodos visitados: 19.
+Numero 152503: NO encontrado; nodos visitados: 24.
+Numero 5000: NO encontrado; nodos visitados: 25.
+Numero 214826: NO encontrado; nodos visitados: 32.
+Numero 1360839354: NO encontrado; nodos visitados: 35.
+Numero 2109248666: NO encontrado; nodos visitados: 27.
+Numero 2147470852: NO encontrado; nodos visitados: 18.
+Numero 0: NO encontrado; nodos visitados: 26.
+
+Numeros SI encontrados:
+Numero 3128036: SI encontrado; nodos visitados: 26.
+Numero 1493283650: SI encontrado; nodos visitados: 26.
+Numero 1843349527: SI encontrado; nodos visitados: 26.
+
+================ RESULTADOS ================
+Repeticiones por version: 1
+Consultas por lote: 20
+Respuestas y pasos: coinciden en ambas versiones.
+
+Version: sin hilos (lote serial)
+real promedio del lote de 20       : 0.0000200272 s
+real amortizado por consulta       : 0.0000010014 s
+user amortizado por consulta       : 0.0000011500 s
+sys amortizado por consulta        : 0.0000000500 s
+CPU/Wall                          : 119.8372571434 %
+
+Version: con hilos (lote paralelo)
+real promedio del lote de 20       : 0.0003650188 s
+real amortizado por consulta       : 0.0000182509 s
+user amortizado por consulta       : 0.0000062000 s
+sys amortizado por consulta        : 0.0000003000 s
+CPU/Wall                          : 35.6145996081 %
+
+Aceleracion del lote (sin/con): 0.054866 x
+Reduccion de tiempo del lote: -1722.6190 %
+Nota: menos de 1x significa que los hilos tardaron mas.
+
+=== PRUEBA n = 5000000 | HILOS = 4 ===
+
+================ BUSQUEDAS ================
+Algoritmo: ABB con consultas distribuidas entre hilos
+Tamano de n: 5000000
+Hilos: 4
+
+Numeros NO encontrados:
+Numero 322486: NO encontrado; nodos visitados: 40.
+Numero 14700764: NO encontrado; nodos visitados: 20.
+Numero 6337399: NO encontrado; nodos visitados: 29.
+Numero 61396: NO encontrado; nodos visitados: 29.
+Numero 10393545: NO encontrado; nodos visitados: 26.
+Numero 2147445644: NO encontrado; nodos visitados: 17.
+Numero 1295390003: NO encontrado; nodos visitados: 36.
+Numero 450057883: NO encontrado; nodos visitados: 27.
+Numero 187645041: NO encontrado; nodos visitados: 23.
+Numero 1980098116: NO encontrado; nodos visitados: 19.
+Numero 152503: NO encontrado; nodos visitados: 25.
+Numero 5000: NO encontrado; nodos visitados: 26.
+Numero 214826: NO encontrado; nodos visitados: 33.
+Numero 1360839354: NO encontrado; nodos visitados: 36.
+Numero 2109248666: NO encontrado; nodos visitados: 28.
+Numero 2147470852: NO encontrado; nodos visitados: 19.
+Numero 0: NO encontrado; nodos visitados: 26.
+
+Numeros SI encontrados:
+Numero 3128036: SI encontrado; nodos visitados: 26.
+Numero 1493283650: SI encontrado; nodos visitados: 26.
+Numero 1843349527: SI encontrado; nodos visitados: 26.
+
+================ RESULTADOS ================
+Repeticiones por version: 1
+Consultas por lote: 20
+Respuestas y pasos: coinciden en ambas versiones.
+
+Version: sin hilos (lote serial)
+real promedio del lote de 20       : 0.0000219345 s
+real amortizado por consulta       : 0.0000010967 s
+user amortizado por consulta       : 0.0000013500 s
+sys amortizado por consulta        : 0.0000000500 s
+CPU/Wall                          : 127.6527304317 %
+
+Version: con hilos (lote paralelo)
+real promedio del lote de 20       : 0.0003778934 s
+real amortizado por consulta       : 0.0000188947 s
+user amortizado por consulta       : 0.0000068000 s
+sys amortizado por consulta        : 0.0000003000 s
+CPU/Wall                          : 37.5767298424 %
+
+Aceleracion del lote (sin/con): 0.058044 x
+Reduccion de tiempo del lote: -1622.8261 %
+Nota: menos de 1x significa que los hilos tardaron mas.
+
+=== PRUEBA n = 6000000 | HILOS = 4 ===
+
+================ BUSQUEDAS ================
+Algoritmo: ABB con consultas distribuidas entre hilos
+Tamano de n: 6000000
+Hilos: 4
+
+Numeros NO encontrados:
+Numero 322486: NO encontrado; nodos visitados: 40.
+Numero 14700764: NO encontrado; nodos visitados: 20.
+Numero 6337399: NO encontrado; nodos visitados: 29.
+Numero 61396: NO encontrado; nodos visitados: 29.
+Numero 10393545: NO encontrado; nodos visitados: 27.
+Numero 2147445644: NO encontrado; nodos visitados: 17.
+Numero 1295390003: NO encontrado; nodos visitados: 36.
+Numero 450057883: NO encontrado; nodos visitados: 28.
+Numero 187645041: NO encontrado; nodos visitados: 24.
+Numero 1980098116: NO encontrado; nodos visitados: 19.
+Numero 152503: NO encontrado; nodos visitados: 25.
+Numero 5000: NO encontrado; nodos visitados: 26.
+Numero 214826: NO encontrado; nodos visitados: 35.
+Numero 1360839354: NO encontrado; nodos visitados: 36.
+Numero 2109248666: NO encontrado; nodos visitados: 28.
+Numero 2147470852: NO encontrado; nodos visitados: 19.
+Numero 0: NO encontrado; nodos visitados: 27.
+
+Numeros SI encontrados:
+Numero 3128036: SI encontrado; nodos visitados: 26.
+Numero 1493283650: SI encontrado; nodos visitados: 26.
+Numero 1843349527: SI encontrado; nodos visitados: 26.
+
+================ RESULTADOS ================
+Repeticiones por version: 1
+Consultas por lote: 20
+Respuestas y pasos: coinciden en ambas versiones.
+
+Version: sin hilos (lote serial)
+real promedio del lote de 20       : 0.0000231266 s
+real amortizado por consulta       : 0.0000011563 s
+user amortizado por consulta       : 0.0000013000 s
+sys amortizado por consulta        : 0.0000000500 s
+CPU/Wall                          : 116.7486680416 %
+
+Version: con hilos (lote paralelo)
+real promedio del lote de 20       : 0.0003309250 s
+real amortizado por consulta       : 0.0000165462 s
+user amortizado por consulta       : 0.0000065500 s
+sys amortizado por consulta        : 0.0000003000 s
+CPU/Wall                          : 41.3991100864 %
+
+Aceleracion del lote (sin/con): 0.069885 x
+Reduccion de tiempo del lote: -1330.9278 %
+Nota: menos de 1x significa que los hilos tardaron mas.
+
+=== PRUEBA n = 7000000 | HILOS = 4 ===
+
+================ BUSQUEDAS ================
+Algoritmo: ABB con consultas distribuidas entre hilos
+Tamano de n: 7000000
+Hilos: 4
+
+Numeros NO encontrados:
+Numero 322486: NO encontrado; nodos visitados: 40.
+Numero 14700764: NO encontrado; nodos visitados: 21.
+Numero 61396: NO encontrado; nodos visitados: 29.
+Numero 2147445644: NO encontrado; nodos visitados: 17.
+Numero 1295390003: NO encontrado; nodos visitados: 36.
+Numero 450057883: NO encontrado; nodos visitados: 28.
+Numero 187645041: NO encontrado; nodos visitados: 24.
+Numero 1980098116: NO encontrado; nodos visitados: 19.
+Numero 152503: NO encontrado; nodos visitados: 25.
+Numero 5000: NO encontrado; nodos visitados: 26.
+Numero 214826: NO encontrado; nodos visitados: 35.
+Numero 1360839354: NO encontrado; nodos visitados: 37.
+Numero 2147470852: NO encontrado; nodos visitados: 19.
+Numero 0: NO encontrado; nodos visitados: 27.
+
+Numeros SI encontrados:
+Numero 3128036: SI encontrado; nodos visitados: 26.
+Numero 6337399: SI encontrado; nodos visitados: 30.
+Numero 10393545: SI encontrado; nodos visitados: 28.
+Numero 1493283650: SI encontrado; nodos visitados: 26.
+Numero 1843349527: SI encontrado; nodos visitados: 26.
+Numero 2109248666: SI encontrado; nodos visitados: 29.
+
+================ RESULTADOS ================
+Repeticiones por version: 1
+Consultas por lote: 20
+Respuestas y pasos: coinciden en ambas versiones.
+
+Version: sin hilos (lote serial)
+real promedio del lote de 20       : 0.0000290871 s
+real amortizado por consulta       : 0.0000014544 s
+user amortizado por consulta       : 0.0000016500 s
+sys amortizado por consulta        : 0.0000001000 s
+CPU/Wall                          : 120.3283934400 %
+
+Version: con hilos (lote paralelo)
+real promedio del lote de 20       : 0.0003259182 s
+real amortizado por consulta       : 0.0000162959 s
+user amortizado por consulta       : 0.0000060500 s
+sys amortizado por consulta        : 0.0000002000 s
+CPU/Wall                          : 38.3531821507 %
+
+Aceleracion del lote (sin/con): 0.089247 x
+Reduccion de tiempo del lote: -1020.4918 %
+Nota: menos de 1x significa que los hilos tardaron mas.
+
+=== PRUEBA n = 8000000 | HILOS = 4 ===
+
+================ BUSQUEDAS ================
+Algoritmo: ABB con consultas distribuidas entre hilos
+Tamano de n: 8000000
+Hilos: 4
+
+Numeros NO encontrados:
+Numero 322486: NO encontrado; nodos visitados: 41.
+Numero 14700764: NO encontrado; nodos visitados: 21.
+Numero 61396: NO encontrado; nodos visitados: 29.
+Numero 2147445644: NO encontrado; nodos visitados: 17.
+Numero 1295390003: NO encontrado; nodos visitados: 36.
+Numero 450057883: NO encontrado; nodos visitados: 28.
+Numero 187645041: NO encontrado; nodos visitados: 24.
+Numero 1980098116: NO encontrado; nodos visitados: 19.
+Numero 152503: NO encontrado; nodos visitados: 25.
+Numero 5000: NO encontrado; nodos visitados: 26.
+Numero 214826: NO encontrado; nodos visitados: 35.
+Numero 1360839354: NO encontrado; nodos visitados: 37.
+Numero 0: NO encontrado; nodos visitados: 28.
+
+Numeros SI encontrados:
+Numero 3128036: SI encontrado; nodos visitados: 26.
+Numero 6337399: SI encontrado; nodos visitados: 30.
+Numero 10393545: SI encontrado; nodos visitados: 28.
+Numero 1493283650: SI encontrado; nodos visitados: 26.
+Numero 1843349527: SI encontrado; nodos visitados: 26.
+Numero 2109248666: SI encontrado; nodos visitados: 29.
+Numero 2147470852: SI encontrado; nodos visitados: 20.
+
+================ RESULTADOS ================
+Repeticiones por version: 1
+Consultas por lote: 20
+Respuestas y pasos: coinciden en ambas versiones.
+
+Version: sin hilos (lote serial)
+real promedio del lote de 20       : 0.0000281334 s
+real amortizado por consulta       : 0.0000014067 s
+user amortizado por consulta       : 0.0000015500 s
+sys amortizado por consulta        : 0.0000000500 s
+CPU/Wall                          : 113.7438372877 %
+
+Version: con hilos (lote paralelo)
+real promedio del lote de 20       : 0.0002920628 s
+real amortizado por consulta       : 0.0000146031 s
+user amortizado por consulta       : 0.0000057000 s
+sys amortizado por consulta        : 0.0000002000 s
+CPU/Wall                          : 40.4022752653 %
+
+Aceleracion del lote (sin/con): 0.096327 x
+Reduccion de tiempo del lote: -938.1356 %
+Nota: menos de 1x significa que los hilos tardaron mas.
+
+=== PRUEBA n = 9000000 | HILOS = 4 ===
+
+================ BUSQUEDAS ================
+Algoritmo: ABB con consultas distribuidas entre hilos
+Tamano de n: 9000000
+Hilos: 4
+
+Numeros NO encontrados:
+Numero 14700764: NO encontrado; nodos visitados: 21.
+Numero 61396: NO encontrado; nodos visitados: 30.
+Numero 2147445644: NO encontrado; nodos visitados: 17.
+Numero 450057883: NO encontrado; nodos visitados: 28.
+Numero 187645041: NO encontrado; nodos visitados: 24.
+Numero 1980098116: NO encontrado; nodos visitados: 20.
+Numero 152503: NO encontrado; nodos visitados: 25.
+Numero 5000: NO encontrado; nodos visitados: 26.
+Numero 214826: NO encontrado; nodos visitados: 35.
+Numero 1360839354: NO encontrado; nodos visitados: 37.
+Numero 0: NO encontrado; nodos visitados: 28.
+
+Numeros SI encontrados:
+Numero 322486: SI encontrado; nodos visitados: 42.
+Numero 3128036: SI encontrado; nodos visitados: 26.
+Numero 6337399: SI encontrado; nodos visitados: 30.
+Numero 10393545: SI encontrado; nodos visitados: 28.
+Numero 1295390003: SI encontrado; nodos visitados: 37.
+Numero 1493283650: SI encontrado; nodos visitados: 26.
+Numero 1843349527: SI encontrado; nodos visitados: 26.
+Numero 2109248666: SI encontrado; nodos visitados: 29.
+Numero 2147470852: SI encontrado; nodos visitados: 20.
+
+================ RESULTADOS ================
+Repeticiones por version: 1
+Consultas por lote: 20
+Respuestas y pasos: coinciden en ambas versiones.
+
+Version: sin hilos (lote serial)
+real promedio del lote de 20       : 0.0000269413 s
+real amortizado por consulta       : 0.0000013471 s
+user amortizado por consulta       : 0.0000015000 s
+sys amortizado por consulta        : 0.0000001000 s
+CPU/Wall                          : 118.7767504449 %
+
+Version: con hilos (lote paralelo)
+real promedio del lote de 20       : 0.0003509521 s
+real amortizado por consulta       : 0.0000175476 s
+user amortizado por consulta       : 0.0000061500 s
+sys amortizado por consulta        : 0.0000002000 s
+CPU/Wall                          : 36.1872695648 %
+
+Aceleracion del lote (sin/con): 0.076766 x
+Reduccion de tiempo del lote: -1202.6549 %
+Nota: menos de 1x significa que los hilos tardaron mas.
+
+=== PRUEBA n = 10000000 | HILOS = 4 ===
+
+================ BUSQUEDAS ================
+Algoritmo: ABB con consultas distribuidas entre hilos
+Tamano de n: 10000000
+Hilos: 4
+
+Numeros NO encontrados:
+Numero 14700764: NO encontrado; nodos visitados: 21.
+Numero 61396: NO encontrado; nodos visitados: 30.
+Numero 2147445644: NO encontrado; nodos visitados: 18.
+Numero 450057883: NO encontrado; nodos visitados: 28.
+Numero 187645041: NO encontrado; nodos visitados: 24.
+Numero 1980098116: NO encontrado; nodos visitados: 20.
+Numero 152503: NO encontrado; nodos visitados: 25.
+Numero 5000: NO encontrado; nodos visitados: 27.
+Numero 214826: NO encontrado; nodos visitados: 35.
+Numero 1360839354: NO encontrado; nodos visitados: 37.
+Numero 0: NO encontrado; nodos visitados: 28.
+
+Numeros SI encontrados:
+Numero 322486: SI encontrado; nodos visitados: 42.
+Numero 3128036: SI encontrado; nodos visitados: 26.
+Numero 6337399: SI encontrado; nodos visitados: 30.
+Numero 10393545: SI encontrado; nodos visitados: 28.
+Numero 1295390003: SI encontrado; nodos visitados: 37.
+Numero 1493283650: SI encontrado; nodos visitados: 26.
+Numero 1843349527: SI encontrado; nodos visitados: 26.
+Numero 2109248666: SI encontrado; nodos visitados: 29.
+Numero 2147470852: SI encontrado; nodos visitados: 20.
+
+================ RESULTADOS ================
+Repeticiones por version: 1
+Consultas por lote: 20
+Respuestas y pasos: coinciden en ambas versiones.
+
+Version: sin hilos (lote serial)
+real promedio del lote de 20       : 0.0000259876 s
+real amortizado por consulta       : 0.0000012994 s
+user amortizado por consulta       : 0.0000015000 s
+sys amortizado por consulta        : 0.0000000500 s
+CPU/Wall                          : 119.2875449567 %
+
+Version: con hilos (lote paralelo)
+real promedio del lote de 20       : 0.0004081726 s
+real amortizado por consulta       : 0.0000204086 s
+user amortizado por consulta       : 0.0000066000 s
+sys amortizado por consulta        : 0.0000002500 s
+CPU/Wall                          : 33.5642317759 %
+
+Aceleracion del lote (sin/con): 0.063668 x
+Reduccion de tiempo del lote: -1470.6422 %
+Nota: menos de 1x significa que los hilos tardaron mas.
+=== COMPLETO: los diez tamanos terminaron correctamente ===

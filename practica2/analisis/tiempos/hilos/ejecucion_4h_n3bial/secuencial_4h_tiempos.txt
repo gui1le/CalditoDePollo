@@ -1,0 +1,436 @@
+=== RESULTADOS: secuencial | HILOS: 4 ===
+Fuente: secuencialHilos.c
+Compilacion: gcc -std=gnu11 -Wall -Wextra -pthread
+Cada n se ejecuta una vez; los programas por lote usan su repeticion predeterminada (1).
+Medida: promedio de 20 busquedas individuales con hilos.
+
+=== PRUEBA n = 1000000 | HILOS = 4 ===
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda lineal con hilos
+Tamano de n: 1000000
+Hilos de busqueda: 4
+
+
+Numeros NO encontrados:
+Numero 14700764: NO encontrado.
+Numero 61396: NO encontrado.
+Numero 2147445644: NO encontrado.
+Numero 1295390003: NO encontrado.
+Numero 450057883: NO encontrado.
+Numero 187645041: NO encontrado.
+Numero 1980098116: NO encontrado.
+Numero 152503: NO encontrado.
+Numero 5000: NO encontrado.
+Numero 1493283650: NO encontrado.
+Numero 214826: NO encontrado.
+Numero 1843349527: NO encontrado.
+Numero 1360839354: NO encontrado.
+Numero 2109248666: NO encontrado.
+Numero 2147470852: NO encontrado.
+
+Numeros SI encontrados:
+Numero 322486: SI encontrado, indice 1612.
+Numero 3128036: SI encontrado, indice 14726.
+Numero 6337399: SI encontrado, indice 29545.
+Numero 10393545: SI encontrado, indice 48375.
+Numero 0: SI encontrado, indice 0.
+
+================ RESULTADOS ================
+Algoritmo: Busqueda lineal con hilos
+N consultadas: 1000000
+Hilos de busqueda: 4
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0003644466 s
+user promedio (CPU en usuario)     : 0.0000481000 s
+sys promedio (CPU en sistema)      : 0.0000545500 s
+CPU/Wall                          : 28.1659888525 %
+============================================
+
+=== PRUEBA n = 2000000 | HILOS = 4 ===
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda lineal con hilos
+Tamano de n: 2000000
+Hilos de busqueda: 4
+
+
+Numeros NO encontrados:
+Numero 14700764: NO encontrado.
+Numero 61396: NO encontrado.
+Numero 2147445644: NO encontrado.
+Numero 1295390003: NO encontrado.
+Numero 450057883: NO encontrado.
+Numero 187645041: NO encontrado.
+Numero 1980098116: NO encontrado.
+Numero 152503: NO encontrado.
+Numero 5000: NO encontrado.
+Numero 1493283650: NO encontrado.
+Numero 214826: NO encontrado.
+Numero 1843349527: NO encontrado.
+Numero 1360839354: NO encontrado.
+Numero 2109248666: NO encontrado.
+Numero 2147470852: NO encontrado.
+
+Numeros SI encontrados:
+Numero 322486: SI encontrado, indice 1612.
+Numero 3128036: SI encontrado, indice 14726.
+Numero 6337399: SI encontrado, indice 29545.
+Numero 10393545: SI encontrado, indice 48375.
+Numero 0: SI encontrado, indice 0.
+
+================ RESULTADOS ================
+Algoritmo: Busqueda lineal con hilos
+N consultadas: 2000000
+Hilos de busqueda: 4
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0006005049 s
+user promedio (CPU en usuario)     : 0.0002231500 s
+sys promedio (CPU en sistema)      : 0.0000000000 s
+CPU/Wall                          : 37.1603977290 %
+============================================
+
+=== PRUEBA n = 3000000 | HILOS = 4 ===
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda lineal con hilos
+Tamano de n: 3000000
+Hilos de busqueda: 4
+
+
+Numeros NO encontrados:
+Numero 14700764: NO encontrado.
+Numero 61396: NO encontrado.
+Numero 2147445644: NO encontrado.
+Numero 1295390003: NO encontrado.
+Numero 450057883: NO encontrado.
+Numero 187645041: NO encontrado.
+Numero 1980098116: NO encontrado.
+Numero 152503: NO encontrado.
+Numero 5000: NO encontrado.
+Numero 1493283650: NO encontrado.
+Numero 214826: NO encontrado.
+Numero 1843349527: NO encontrado.
+Numero 1360839354: NO encontrado.
+Numero 2109248666: NO encontrado.
+Numero 2147470852: NO encontrado.
+
+Numeros SI encontrados:
+Numero 322486: SI encontrado, indice 1612.
+Numero 3128036: SI encontrado, indice 14726.
+Numero 6337399: SI encontrado, indice 29545.
+Numero 10393545: SI encontrado, indice 48375.
+Numero 0: SI encontrado, indice 0.
+
+================ RESULTADOS ================
+Algoritmo: Busqueda lineal con hilos
+N consultadas: 3000000
+Hilos de busqueda: 4
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0008826017 s
+user promedio (CPU en usuario)     : 0.0002145500 s
+sys promedio (CPU en sistema)      : 0.0000283500 s
+CPU/Wall                          : 27.5209066047 %
+============================================
+
+=== PRUEBA n = 4000000 | HILOS = 4 ===
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda lineal con hilos
+Tamano de n: 4000000
+Hilos de busqueda: 4
+
+
+Numeros NO encontrados:
+Numero 14700764: NO encontrado.
+Numero 61396: NO encontrado.
+Numero 2147445644: NO encontrado.
+Numero 1295390003: NO encontrado.
+Numero 450057883: NO encontrado.
+Numero 187645041: NO encontrado.
+Numero 1980098116: NO encontrado.
+Numero 152503: NO encontrado.
+Numero 5000: NO encontrado.
+Numero 1493283650: NO encontrado.
+Numero 214826: NO encontrado.
+Numero 1843349527: NO encontrado.
+Numero 1360839354: NO encontrado.
+Numero 2109248666: NO encontrado.
+Numero 2147470852: NO encontrado.
+
+Numeros SI encontrados:
+Numero 322486: SI encontrado, indice 1612.
+Numero 3128036: SI encontrado, indice 14726.
+Numero 6337399: SI encontrado, indice 29545.
+Numero 10393545: SI encontrado, indice 48375.
+Numero 0: SI encontrado, indice 0.
+
+================ RESULTADOS ================
+Algoritmo: Busqueda lineal con hilos
+N consultadas: 4000000
+Hilos de busqueda: 4
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0010759234 s
+user promedio (CPU en usuario)     : 0.0004499000 s
+sys promedio (CPU en sistema)      : 0.0000000000 s
+CPU/Wall                          : 41.8152428032 %
+============================================
+
+=== PRUEBA n = 5000000 | HILOS = 4 ===
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda lineal con hilos
+Tamano de n: 5000000
+Hilos de busqueda: 4
+
+
+Numeros NO encontrados:
+Numero 14700764: NO encontrado.
+Numero 61396: NO encontrado.
+Numero 2147445644: NO encontrado.
+Numero 1295390003: NO encontrado.
+Numero 450057883: NO encontrado.
+Numero 187645041: NO encontrado.
+Numero 1980098116: NO encontrado.
+Numero 152503: NO encontrado.
+Numero 5000: NO encontrado.
+Numero 1493283650: NO encontrado.
+Numero 214826: NO encontrado.
+Numero 1843349527: NO encontrado.
+Numero 1360839354: NO encontrado.
+Numero 2109248666: NO encontrado.
+Numero 2147470852: NO encontrado.
+
+Numeros SI encontrados:
+Numero 322486: SI encontrado, indice 1612.
+Numero 3128036: SI encontrado, indice 14726.
+Numero 6337399: SI encontrado, indice 29545.
+Numero 10393545: SI encontrado, indice 48375.
+Numero 0: SI encontrado, indice 0.
+
+================ RESULTADOS ================
+Algoritmo: Busqueda lineal con hilos
+N consultadas: 5000000
+Hilos de busqueda: 4
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0012827516 s
+user promedio (CPU en usuario)     : 0.0005099500 s
+sys promedio (CPU en sistema)      : 0.0000054000 s
+CPU/Wall                          : 40.1753555392 %
+============================================
+
+=== PRUEBA n = 6000000 | HILOS = 4 ===
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda lineal con hilos
+Tamano de n: 6000000
+Hilos de busqueda: 4
+
+
+Numeros NO encontrados:
+Numero 14700764: NO encontrado.
+Numero 61396: NO encontrado.
+Numero 2147445644: NO encontrado.
+Numero 1295390003: NO encontrado.
+Numero 450057883: NO encontrado.
+Numero 187645041: NO encontrado.
+Numero 1980098116: NO encontrado.
+Numero 152503: NO encontrado.
+Numero 5000: NO encontrado.
+Numero 1493283650: NO encontrado.
+Numero 214826: NO encontrado.
+Numero 1843349527: NO encontrado.
+Numero 1360839354: NO encontrado.
+Numero 2109248666: NO encontrado.
+Numero 2147470852: NO encontrado.
+
+Numeros SI encontrados:
+Numero 322486: SI encontrado, indice 1612.
+Numero 3128036: SI encontrado, indice 14726.
+Numero 6337399: SI encontrado, indice 29545.
+Numero 10393545: SI encontrado, indice 48375.
+Numero 0: SI encontrado, indice 0.
+
+================ RESULTADOS ================
+Algoritmo: Busqueda lineal con hilos
+N consultadas: 6000000
+Hilos de busqueda: 4
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0016824484 s
+user promedio (CPU en usuario)     : 0.0011261000 s
+sys promedio (CPU en sistema)      : 0.0000084000 s
+CPU/Wall                          : 67.4314890530 %
+============================================
+
+=== PRUEBA n = 7000000 | HILOS = 4 ===
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda lineal con hilos
+Tamano de n: 7000000
+Hilos de busqueda: 4
+
+
+Numeros NO encontrados:
+Numero 14700764: NO encontrado.
+Numero 61396: NO encontrado.
+Numero 2147445644: NO encontrado.
+Numero 450057883: NO encontrado.
+Numero 187645041: NO encontrado.
+Numero 1980098116: NO encontrado.
+Numero 152503: NO encontrado.
+Numero 5000: NO encontrado.
+Numero 214826: NO encontrado.
+Numero 1843349527: NO encontrado.
+Numero 1360839354: NO encontrado.
+Numero 2109248666: NO encontrado.
+Numero 2147470852: NO encontrado.
+
+Numeros SI encontrados:
+Numero 322486: SI encontrado, indice 1612.
+Numero 3128036: SI encontrado, indice 14726.
+Numero 6337399: SI encontrado, indice 29545.
+Numero 10393545: SI encontrado, indice 48375.
+Numero 1295390003: SI encontrado, indice 6031094.
+Numero 1493283650: SI encontrado, indice 6952608.
+Numero 0: SI encontrado, indice 0.
+
+================ RESULTADOS ================
+Algoritmo: Busqueda lineal con hilos
+N consultadas: 7000000
+Hilos de busqueda: 4
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0018375993 s
+user promedio (CPU en usuario)     : 0.0015377500 s
+sys promedio (CPU en sistema)      : 0.0000038000 s
+CPU/Wall                          : 83.8893451297 %
+============================================
+
+=== PRUEBA n = 8000000 | HILOS = 4 ===
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda lineal con hilos
+Tamano de n: 8000000
+Hilos de busqueda: 4
+
+
+Numeros NO encontrados:
+Numero 14700764: NO encontrado.
+Numero 61396: NO encontrado.
+Numero 2147445644: NO encontrado.
+Numero 450057883: NO encontrado.
+Numero 187645041: NO encontrado.
+Numero 1980098116: NO encontrado.
+Numero 152503: NO encontrado.
+Numero 5000: NO encontrado.
+Numero 214826: NO encontrado.
+Numero 1843349527: NO encontrado.
+Numero 1360839354: NO encontrado.
+Numero 2109248666: NO encontrado.
+Numero 2147470852: NO encontrado.
+
+Numeros SI encontrados:
+Numero 322486: SI encontrado, indice 1612.
+Numero 3128036: SI encontrado, indice 14726.
+Numero 6337399: SI encontrado, indice 29545.
+Numero 10393545: SI encontrado, indice 48375.
+Numero 1295390003: SI encontrado, indice 6031094.
+Numero 1493283650: SI encontrado, indice 6952608.
+Numero 0: SI encontrado, indice 0.
+
+================ RESULTADOS ================
+Algoritmo: Busqueda lineal con hilos
+N consultadas: 8000000
+Hilos de busqueda: 4
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0022058010 s
+user promedio (CPU en usuario)     : 0.0021132500 s
+sys promedio (CPU en sistema)      : 0.0000044000 s
+CPU/Wall                          : 96.0036735079 %
+============================================
+
+=== PRUEBA n = 9000000 | HILOS = 4 ===
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda lineal con hilos
+Tamano de n: 9000000
+Hilos de busqueda: 4
+
+
+Numeros NO encontrados:
+Numero 14700764: NO encontrado.
+Numero 61396: NO encontrado.
+Numero 2147445644: NO encontrado.
+Numero 450057883: NO encontrado.
+Numero 187645041: NO encontrado.
+Numero 1980098116: NO encontrado.
+Numero 152503: NO encontrado.
+Numero 5000: NO encontrado.
+Numero 214826: NO encontrado.
+Numero 1360839354: NO encontrado.
+Numero 2109248666: NO encontrado.
+Numero 2147470852: NO encontrado.
+
+Numeros SI encontrados:
+Numero 322486: SI encontrado, indice 1612.
+Numero 3128036: SI encontrado, indice 14726.
+Numero 6337399: SI encontrado, indice 29545.
+Numero 10393545: SI encontrado, indice 48375.
+Numero 1295390003: SI encontrado, indice 6031094.
+Numero 1493283650: SI encontrado, indice 6952608.
+Numero 1843349527: SI encontrado, indice 8582391.
+Numero 0: SI encontrado, indice 0.
+
+================ RESULTADOS ================
+Algoritmo: Busqueda lineal con hilos
+N consultadas: 9000000
+Hilos de busqueda: 4
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0024304986 s
+user promedio (CPU en usuario)     : 0.0029910500 s
+sys promedio (CPU en sistema)      : 0.0000049000 s
+CPU/Wall                          : 123.2648313392 %
+============================================
+
+=== PRUEBA n = 10000000 | HILOS = 4 ===
+
+================ BUSQUEDAS ================
+Algoritmo: Busqueda lineal con hilos
+Tamano de n: 10000000
+Hilos de busqueda: 4
+
+
+Numeros NO encontrados:
+Numero 14700764: NO encontrado.
+Numero 61396: NO encontrado.
+Numero 2147445644: NO encontrado.
+Numero 450057883: NO encontrado.
+Numero 187645041: NO encontrado.
+Numero 1980098116: NO encontrado.
+Numero 152503: NO encontrado.
+Numero 5000: NO encontrado.
+Numero 214826: NO encontrado.
+Numero 1360839354: NO encontrado.
+
+Numeros SI encontrados:
+Numero 322486: SI encontrado, indice 1612.
+Numero 3128036: SI encontrado, indice 14726.
+Numero 6337399: SI encontrado, indice 29545.
+Numero 10393545: SI encontrado, indice 48375.
+Numero 1295390003: SI encontrado, indice 6031094.
+Numero 1493283650: SI encontrado, indice 6952608.
+Numero 1843349527: SI encontrado, indice 8582391.
+Numero 2109248666: SI encontrado, indice 9822540.
+Numero 2147470852: SI encontrado, indice 9999943.
+Numero 0: SI encontrado, indice 0.
+
+================ RESULTADOS ================
+Algoritmo: Busqueda lineal con hilos
+N consultadas: 10000000
+Hilos de busqueda: 4
+Busquedas realizadas: 20
+real promedio (Tiempo total)       : 0.0026153326 s
+user promedio (CPU en usuario)     : 0.0028734000 s
+sys promedio (CPU en sistema)      : 0.0000000000 s
+CPU/Wall                          : 109.8674790428 %
+============================================
+=== COMPLETO: los diez tamanos terminaron correctamente ===

@@ -1,0 +1,557 @@
+=== RESULTADOS: exponencial | HILOS: 4 ===
+Fuente: exponencialHilos.c
+Compilacion: gcc -std=gnu11 -Wall -Wextra -pthread
+Cada n se ejecuta una vez; los programas por lote usan su repeticion predeterminada (1).
+Medida: lote de 20 consultas y tiempo amortizado por consulta.
+Las versiones y comparaciones mostradas son las incluidas en el fuente.
+
+=== PRUEBA n = 1000000 | HILOS = 4 ===
+
+================ BUSQUEDAS ================
+Algoritmo: Exponencial con consultas distribuidas entre hilos
+Tamano de n: 1000000
+Hilos: 4
+
+Numeros NO encontrados:
+Numero 14700764: NO encontrado.
+Numero 61396: NO encontrado.
+Numero 2147445644: NO encontrado.
+Numero 1295390003: NO encontrado.
+Numero 450057883: NO encontrado.
+Numero 187645041: NO encontrado.
+Numero 1980098116: NO encontrado.
+Numero 152503: NO encontrado.
+Numero 5000: NO encontrado.
+Numero 1493283650: NO encontrado.
+Numero 214826: NO encontrado.
+Numero 1843349527: NO encontrado.
+Numero 1360839354: NO encontrado.
+Numero 2109248666: NO encontrado.
+Numero 2147470852: NO encontrado.
+
+Numeros SI encontrados:
+Numero 322486: SI encontrado en la posicion 1612 (21 pasos).
+Numero 3128036: SI encontrado en la posicion 14726 (28 pasos).
+Numero 6337399: SI encontrado en la posicion 29545 (31 pasos).
+Numero 10393545: SI encontrado en la posicion 48375 (30 pasos).
+Numero 0: SI encontrado en la posicion 0 (1 pasos).
+
+================ RESULTADOS ================
+Repeticiones por version: 1
+Consultas por lote: 20
+Encontrados, posiciones y pasos: coinciden en ambas versiones.
+
+Version: sin hilos (lote serial)
+real promedio del lote de 20       : 0.0000040531 s
+real amortizado por consulta       : 0.0000002027 s
+user amortizado por consulta       : 0.0000003500 s
+sys amortizado por consulta        : 0.0000000500 s
+CPU/Wall                          : 197.3790117647 %
+
+Version: con hilos (lote paralelo)
+real promedio del lote de 20       : 0.0002570152 s
+real amortizado por consulta       : 0.0000128508 s
+user amortizado por consulta       : 0.0000056500 s
+sys amortizado por consulta        : 0.0000009500 s
+CPU/Wall                          : 51.3588244898 %
+
+Aceleracion del lote (sin/con): 0.015770 x
+Reduccion de tiempo del lote: -6241.1765 %
+Nota: menos de 1x significa que los hilos tardaron mas.
+Tiempo amortizado por consulta, no latencia individual.
+
+=== PRUEBA n = 2000000 | HILOS = 4 ===
+
+================ BUSQUEDAS ================
+Algoritmo: Exponencial con consultas distribuidas entre hilos
+Tamano de n: 2000000
+Hilos: 4
+
+Numeros NO encontrados:
+Numero 14700764: NO encontrado.
+Numero 61396: NO encontrado.
+Numero 2147445644: NO encontrado.
+Numero 1295390003: NO encontrado.
+Numero 450057883: NO encontrado.
+Numero 187645041: NO encontrado.
+Numero 1980098116: NO encontrado.
+Numero 152503: NO encontrado.
+Numero 5000: NO encontrado.
+Numero 1493283650: NO encontrado.
+Numero 214826: NO encontrado.
+Numero 1843349527: NO encontrado.
+Numero 1360839354: NO encontrado.
+Numero 2109248666: NO encontrado.
+Numero 2147470852: NO encontrado.
+
+Numeros SI encontrados:
+Numero 322486: SI encontrado en la posicion 1612 (21 pasos).
+Numero 3128036: SI encontrado en la posicion 14726 (28 pasos).
+Numero 6337399: SI encontrado en la posicion 29545 (31 pasos).
+Numero 10393545: SI encontrado en la posicion 48375 (30 pasos).
+Numero 0: SI encontrado en la posicion 0 (1 pasos).
+
+================ RESULTADOS ================
+Repeticiones por version: 1
+Consultas por lote: 20
+Encontrados, posiciones y pasos: coinciden en ambas versiones.
+
+Version: sin hilos (lote serial)
+real promedio del lote de 20       : 0.0000050068 s
+real amortizado por consulta       : 0.0000002503 s
+user amortizado por consulta       : 0.0000004000 s
+sys amortizado por consulta        : 0.0000001500 s
+CPU/Wall                          : 219.7016380952 %
+
+Version: con hilos (lote paralelo)
+real promedio del lote de 20       : 0.0001990795 s
+real amortizado por consulta       : 0.0000099540 s
+user amortizado por consulta       : 0.0000046500 s
+sys amortizado por consulta        : 0.0000019000 s
+CPU/Wall                          : 65.8028531736 %
+
+Aceleracion del lote (sin/con): 0.025150 x
+Reduccion de tiempo del lote: -3876.1905 %
+Nota: menos de 1x significa que los hilos tardaron mas.
+Tiempo amortizado por consulta, no latencia individual.
+
+=== PRUEBA n = 3000000 | HILOS = 4 ===
+
+================ BUSQUEDAS ================
+Algoritmo: Exponencial con consultas distribuidas entre hilos
+Tamano de n: 3000000
+Hilos: 4
+
+Numeros NO encontrados:
+Numero 14700764: NO encontrado.
+Numero 61396: NO encontrado.
+Numero 2147445644: NO encontrado.
+Numero 1295390003: NO encontrado.
+Numero 450057883: NO encontrado.
+Numero 187645041: NO encontrado.
+Numero 1980098116: NO encontrado.
+Numero 152503: NO encontrado.
+Numero 5000: NO encontrado.
+Numero 1493283650: NO encontrado.
+Numero 214826: NO encontrado.
+Numero 1843349527: NO encontrado.
+Numero 1360839354: NO encontrado.
+Numero 2109248666: NO encontrado.
+Numero 2147470852: NO encontrado.
+
+Numeros SI encontrados:
+Numero 322486: SI encontrado en la posicion 1612 (21 pasos).
+Numero 3128036: SI encontrado en la posicion 14726 (28 pasos).
+Numero 6337399: SI encontrado en la posicion 29545 (31 pasos).
+Numero 10393545: SI encontrado en la posicion 48375 (30 pasos).
+Numero 0: SI encontrado en la posicion 0 (1 pasos).
+
+================ RESULTADOS ================
+Repeticiones por version: 1
+Consultas por lote: 20
+Encontrados, posiciones y pasos: coinciden en ambas versiones.
+
+Version: sin hilos (lote serial)
+real promedio del lote de 20       : 0.0000069141 s
+real amortizado por consulta       : 0.0000003457 s
+user amortizado por consulta       : 0.0000004000 s
+sys amortizado por consulta        : 0.0000002000 s
+CPU/Wall                          : 173.5574068967 %
+
+Version: con hilos (lote paralelo)
+real promedio del lote de 20       : 0.0002582073 s
+real amortizado por consulta       : 0.0000129104 s
+user amortizado por consulta       : 0.0000090500 s
+sys amortizado por consulta        : 0.0000045000 s
+CPU/Wall                          : 104.9544214220 %
+
+Aceleracion del lote (sin/con): 0.026777 x
+Reduccion de tiempo del lote: -3634.4828 %
+Nota: menos de 1x significa que los hilos tardaron mas.
+Tiempo amortizado por consulta, no latencia individual.
+
+=== PRUEBA n = 4000000 | HILOS = 4 ===
+
+================ BUSQUEDAS ================
+Algoritmo: Exponencial con consultas distribuidas entre hilos
+Tamano de n: 4000000
+Hilos: 4
+
+Numeros NO encontrados:
+Numero 14700764: NO encontrado.
+Numero 61396: NO encontrado.
+Numero 2147445644: NO encontrado.
+Numero 1295390003: NO encontrado.
+Numero 450057883: NO encontrado.
+Numero 187645041: NO encontrado.
+Numero 1980098116: NO encontrado.
+Numero 152503: NO encontrado.
+Numero 5000: NO encontrado.
+Numero 1493283650: NO encontrado.
+Numero 214826: NO encontrado.
+Numero 1843349527: NO encontrado.
+Numero 1360839354: NO encontrado.
+Numero 2109248666: NO encontrado.
+Numero 2147470852: NO encontrado.
+
+Numeros SI encontrados:
+Numero 322486: SI encontrado en la posicion 1612 (21 pasos).
+Numero 3128036: SI encontrado en la posicion 14726 (28 pasos).
+Numero 6337399: SI encontrado en la posicion 29545 (31 pasos).
+Numero 10393545: SI encontrado en la posicion 48375 (30 pasos).
+Numero 0: SI encontrado en la posicion 0 (1 pasos).
+
+================ RESULTADOS ================
+Repeticiones por version: 1
+Consultas por lote: 20
+Encontrados, posiciones y pasos: coinciden en ambas versiones.
+
+Version: sin hilos (lote serial)
+real promedio del lote de 20       : 0.0000090599 s
+real amortizado por consulta       : 0.0000004530 s
+user amortizado por consulta       : 0.0000005500 s
+sys amortizado por consulta        : 0.0000002500 s
+CPU/Wall                          : 176.6022736844 %
+
+Version: con hilos (lote paralelo)
+real promedio del lote de 20       : 0.0002429485 s
+real amortizado por consulta       : 0.0000121474 s
+user amortizado por consulta       : 0.0000064000 s
+sys amortizado por consulta        : 0.0000032000 s
+CPU/Wall                          : 79.0290842002 %
+
+Aceleracion del lote (sin/con): 0.037291 x
+Reduccion de tiempo del lote: -2581.5789 %
+Nota: menos de 1x significa que los hilos tardaron mas.
+Tiempo amortizado por consulta, no latencia individual.
+
+=== PRUEBA n = 5000000 | HILOS = 4 ===
+
+================ BUSQUEDAS ================
+Algoritmo: Exponencial con consultas distribuidas entre hilos
+Tamano de n: 5000000
+Hilos: 4
+
+Numeros NO encontrados:
+Numero 14700764: NO encontrado.
+Numero 61396: NO encontrado.
+Numero 2147445644: NO encontrado.
+Numero 1295390003: NO encontrado.
+Numero 450057883: NO encontrado.
+Numero 187645041: NO encontrado.
+Numero 1980098116: NO encontrado.
+Numero 152503: NO encontrado.
+Numero 5000: NO encontrado.
+Numero 1493283650: NO encontrado.
+Numero 214826: NO encontrado.
+Numero 1843349527: NO encontrado.
+Numero 1360839354: NO encontrado.
+Numero 2109248666: NO encontrado.
+Numero 2147470852: NO encontrado.
+
+Numeros SI encontrados:
+Numero 322486: SI encontrado en la posicion 1612 (21 pasos).
+Numero 3128036: SI encontrado en la posicion 14726 (28 pasos).
+Numero 6337399: SI encontrado en la posicion 29545 (31 pasos).
+Numero 10393545: SI encontrado en la posicion 48375 (30 pasos).
+Numero 0: SI encontrado en la posicion 0 (1 pasos).
+
+================ RESULTADOS ================
+Repeticiones por version: 1
+Consultas por lote: 20
+Encontrados, posiciones y pasos: coinciden en ambas versiones.
+
+Version: sin hilos (lote serial)
+real promedio del lote de 20       : 0.0000081062 s
+real amortizado por consulta       : 0.0000004053 s
+user amortizado por consulta       : 0.0000005000 s
+sys amortizado por consulta        : 0.0000003000 s
+CPU/Wall                          : 197.3790117649 %
+
+Version: con hilos (lote paralelo)
+real promedio del lote de 20       : 0.0001959801 s
+real amortizado por consulta       : 0.0000097990 s
+user amortizado por consulta       : 0.0000048500 s
+sys amortizado por consulta        : 0.0000030000 s
+CPU/Wall                          : 80.1101858881 %
+
+Aceleracion del lote (sin/con): 0.041363 x
+Reduccion de tiempo del lote: -2317.6471 %
+Nota: menos de 1x significa que los hilos tardaron mas.
+Tiempo amortizado por consulta, no latencia individual.
+
+=== PRUEBA n = 6000000 | HILOS = 4 ===
+
+================ BUSQUEDAS ================
+Algoritmo: Exponencial con consultas distribuidas entre hilos
+Tamano de n: 6000000
+Hilos: 4
+
+Numeros NO encontrados:
+Numero 14700764: NO encontrado.
+Numero 61396: NO encontrado.
+Numero 2147445644: NO encontrado.
+Numero 1295390003: NO encontrado.
+Numero 450057883: NO encontrado.
+Numero 187645041: NO encontrado.
+Numero 1980098116: NO encontrado.
+Numero 152503: NO encontrado.
+Numero 5000: NO encontrado.
+Numero 1493283650: NO encontrado.
+Numero 214826: NO encontrado.
+Numero 1843349527: NO encontrado.
+Numero 1360839354: NO encontrado.
+Numero 2109248666: NO encontrado.
+Numero 2147470852: NO encontrado.
+
+Numeros SI encontrados:
+Numero 322486: SI encontrado en la posicion 1612 (21 pasos).
+Numero 3128036: SI encontrado en la posicion 14726 (28 pasos).
+Numero 6337399: SI encontrado en la posicion 29545 (31 pasos).
+Numero 10393545: SI encontrado en la posicion 48375 (30 pasos).
+Numero 0: SI encontrado en la posicion 0 (1 pasos).
+
+================ RESULTADOS ================
+Repeticiones por version: 1
+Consultas por lote: 20
+Encontrados, posiciones y pasos: coinciden en ambas versiones.
+
+Version: sin hilos (lote serial)
+real promedio del lote de 20       : 0.0000078678 s
+real amortizado por consulta       : 0.0000003934 s
+user amortizado por consulta       : 0.0000004500 s
+sys amortizado por consulta        : 0.0000003000 s
+CPU/Wall                          : 190.6501818177 %
+
+Version: con hilos (lote paralelo)
+real promedio del lote de 20       : 0.0001909733 s
+real amortizado por consulta       : 0.0000095487 s
+user amortizado por consulta       : 0.0000048500 s
+sys amortizado por consulta        : 0.0000032000 s
+CPU/Wall                          : 84.3049867666 %
+
+Aceleracion del lote (sin/con): 0.041199 x
+Reduccion de tiempo del lote: -2327.2727 %
+Nota: menos de 1x significa que los hilos tardaron mas.
+Tiempo amortizado por consulta, no latencia individual.
+
+=== PRUEBA n = 7000000 | HILOS = 4 ===
+
+================ BUSQUEDAS ================
+Algoritmo: Exponencial con consultas distribuidas entre hilos
+Tamano de n: 7000000
+Hilos: 4
+
+Numeros NO encontrados:
+Numero 14700764: NO encontrado.
+Numero 61396: NO encontrado.
+Numero 2147445644: NO encontrado.
+Numero 450057883: NO encontrado.
+Numero 187645041: NO encontrado.
+Numero 1980098116: NO encontrado.
+Numero 152503: NO encontrado.
+Numero 5000: NO encontrado.
+Numero 214826: NO encontrado.
+Numero 1843349527: NO encontrado.
+Numero 1360839354: NO encontrado.
+Numero 2109248666: NO encontrado.
+Numero 2147470852: NO encontrado.
+
+Numeros SI encontrados:
+Numero 322486: SI encontrado en la posicion 1612 (21 pasos).
+Numero 3128036: SI encontrado en la posicion 14726 (28 pasos).
+Numero 6337399: SI encontrado en la posicion 29545 (31 pasos).
+Numero 10393545: SI encontrado en la posicion 48375 (30 pasos).
+Numero 1295390003: SI encontrado en la posicion 6031094 (45 pasos).
+Numero 1493283650: SI encontrado en la posicion 6952608 (44 pasos).
+Numero 0: SI encontrado en la posicion 0 (1 pasos).
+
+================ RESULTADOS ================
+Repeticiones por version: 1
+Consultas por lote: 20
+Encontrados, posiciones y pasos: coinciden en ambas versiones.
+
+Version: sin hilos (lote serial)
+real promedio del lote de 20       : 0.0000109673 s
+real amortizado por consulta       : 0.0000005484 s
+user amortizado por consulta       : 0.0000006500 s
+sys amortizado por consulta        : 0.0000003000 s
+CPU/Wall                          : 173.2429913043 %
+
+Version: con hilos (lote paralelo)
+real promedio del lote de 20       : 0.0002360344 s
+real amortizado por consulta       : 0.0000118017 s
+user amortizado por consulta       : 0.0000061500 s
+sys amortizado por consulta        : 0.0000029500 s
+CPU/Wall                          : 77.1074068687 %
+
+Aceleracion del lote (sin/con): 0.046465 x
+Reduccion de tiempo del lote: -2052.1739 %
+Nota: menos de 1x significa que los hilos tardaron mas.
+Tiempo amortizado por consulta, no latencia individual.
+
+=== PRUEBA n = 8000000 | HILOS = 4 ===
+
+================ BUSQUEDAS ================
+Algoritmo: Exponencial con consultas distribuidas entre hilos
+Tamano de n: 8000000
+Hilos: 4
+
+Numeros NO encontrados:
+Numero 14700764: NO encontrado.
+Numero 61396: NO encontrado.
+Numero 2147445644: NO encontrado.
+Numero 450057883: NO encontrado.
+Numero 187645041: NO encontrado.
+Numero 1980098116: NO encontrado.
+Numero 152503: NO encontrado.
+Numero 5000: NO encontrado.
+Numero 214826: NO encontrado.
+Numero 1843349527: NO encontrado.
+Numero 1360839354: NO encontrado.
+Numero 2109248666: NO encontrado.
+Numero 2147470852: NO encontrado.
+
+Numeros SI encontrados:
+Numero 322486: SI encontrado en la posicion 1612 (21 pasos).
+Numero 3128036: SI encontrado en la posicion 14726 (28 pasos).
+Numero 6337399: SI encontrado en la posicion 29545 (31 pasos).
+Numero 10393545: SI encontrado en la posicion 48375 (30 pasos).
+Numero 1295390003: SI encontrado en la posicion 6031094 (46 pasos).
+Numero 1493283650: SI encontrado en la posicion 6952608 (46 pasos).
+Numero 0: SI encontrado en la posicion 0 (1 pasos).
+
+================ RESULTADOS ================
+Repeticiones por version: 1
+Consultas por lote: 20
+Encontrados, posiciones y pasos: coinciden en ambas versiones.
+
+Version: sin hilos (lote serial)
+real promedio del lote de 20       : 0.0000109673 s
+real amortizado por consulta       : 0.0000005484 s
+user amortizado por consulta       : 0.0000006000 s
+sys amortizado por consulta        : 0.0000003500 s
+CPU/Wall                          : 173.2429913043 %
+
+Version: con hilos (lote paralelo)
+real promedio del lote de 20       : 0.0004019737 s
+real amortizado por consulta       : 0.0000200987 s
+user amortizado por consulta       : 0.0000052500 s
+sys amortizado por consulta        : 0.0000029500 s
+CPU/Wall                          : 40.7986865955 %
+
+Aceleracion del lote (sin/con): 0.027284 x
+Reduccion de tiempo del lote: -3565.2174 %
+Nota: menos de 1x significa que los hilos tardaron mas.
+Tiempo amortizado por consulta, no latencia individual.
+
+=== PRUEBA n = 9000000 | HILOS = 4 ===
+
+================ BUSQUEDAS ================
+Algoritmo: Exponencial con consultas distribuidas entre hilos
+Tamano de n: 9000000
+Hilos: 4
+
+Numeros NO encontrados:
+Numero 14700764: NO encontrado.
+Numero 61396: NO encontrado.
+Numero 2147445644: NO encontrado.
+Numero 450057883: NO encontrado.
+Numero 187645041: NO encontrado.
+Numero 1980098116: NO encontrado.
+Numero 152503: NO encontrado.
+Numero 5000: NO encontrado.
+Numero 214826: NO encontrado.
+Numero 1360839354: NO encontrado.
+Numero 2109248666: NO encontrado.
+Numero 2147470852: NO encontrado.
+
+Numeros SI encontrados:
+Numero 322486: SI encontrado en la posicion 1612 (21 pasos).
+Numero 3128036: SI encontrado en la posicion 14726 (28 pasos).
+Numero 6337399: SI encontrado en la posicion 29545 (31 pasos).
+Numero 10393545: SI encontrado en la posicion 48375 (30 pasos).
+Numero 1295390003: SI encontrado en la posicion 6031094 (47 pasos).
+Numero 1493283650: SI encontrado en la posicion 6952608 (42 pasos).
+Numero 1843349527: SI encontrado en la posicion 8582391 (44 pasos).
+Numero 0: SI encontrado en la posicion 0 (1 pasos).
+
+================ RESULTADOS ================
+Repeticiones por version: 1
+Consultas por lote: 20
+Encontrados, posiciones y pasos: coinciden en ambas versiones.
+
+Version: sin hilos (lote serial)
+real promedio del lote de 20       : 0.0000181198 s
+real amortizado por consulta       : 0.0000009060 s
+user amortizado por consulta       : 0.0000008500 s
+sys amortizado por consulta        : 0.0000005000 s
+CPU/Wall                          : 149.0081684210 %
+
+Version: con hilos (lote paralelo)
+real promedio del lote de 20       : 0.0003190041 s
+real amortizado por consulta       : 0.0000159502 s
+user amortizado por consulta       : 0.0000114000 s
+sys amortizado por consulta        : 0.0000063500 s
+CPU/Wall                          : 111.2838505232 %
+
+Aceleracion del lote (sin/con): 0.056801 x
+Reduccion de tiempo del lote: -1660.5263 %
+Nota: menos de 1x significa que los hilos tardaron mas.
+Tiempo amortizado por consulta, no latencia individual.
+
+=== PRUEBA n = 10000000 | HILOS = 4 ===
+
+================ BUSQUEDAS ================
+Algoritmo: Exponencial con consultas distribuidas entre hilos
+Tamano de n: 10000000
+Hilos: 4
+
+Numeros NO encontrados:
+Numero 14700764: NO encontrado.
+Numero 61396: NO encontrado.
+Numero 2147445644: NO encontrado.
+Numero 450057883: NO encontrado.
+Numero 187645041: NO encontrado.
+Numero 1980098116: NO encontrado.
+Numero 152503: NO encontrado.
+Numero 5000: NO encontrado.
+Numero 214826: NO encontrado.
+Numero 1360839354: NO encontrado.
+
+Numeros SI encontrados:
+Numero 322486: SI encontrado en la posicion 1612 (21 pasos).
+Numero 3128036: SI encontrado en la posicion 14726 (28 pasos).
+Numero 6337399: SI encontrado en la posicion 29545 (31 pasos).
+Numero 10393545: SI encontrado en la posicion 48375 (30 pasos).
+Numero 1295390003: SI encontrado en la posicion 6031094 (47 pasos).
+Numero 1493283650: SI encontrado en la posicion 6952608 (42 pasos).
+Numero 1843349527: SI encontrado en la posicion 8582391 (44 pasos).
+Numero 2109248666: SI encontrado en la posicion 9822540 (43 pasos).
+Numero 2147470852: SI encontrado en la posicion 9999943 (43 pasos).
+Numero 0: SI encontrado en la posicion 0 (1 pasos).
+
+================ RESULTADOS ================
+Repeticiones por version: 1
+Consultas por lote: 20
+Encontrados, posiciones y pasos: coinciden en ambas versiones.
+
+Version: sin hilos (lote serial)
+real promedio del lote de 20       : 0.0000140667 s
+real amortizado por consulta       : 0.0000007033 s
+user amortizado por consulta       : 0.0000006500 s
+sys amortizado por consulta        : 0.0000003500 s
+CPU/Wall                          : 142.1797966105 %
+
+Version: con hilos (lote paralelo)
+real promedio del lote de 20       : 0.0003781319 s
+real amortizado por consulta       : 0.0000189066 s
+user amortizado por consulta       : 0.0000058000 s
+sys amortizado por consulta        : 0.0000029000 s
+CPU/Wall                          : 46.0156933165 %
+
+Aceleracion del lote (sin/con): 0.037201 x
+Reduccion de tiempo del lote: -2588.1356 %
+Nota: menos de 1x significa que los hilos tardaron mas.
+Tiempo amortizado por consulta, no latencia individual.
+=== COMPLETO: los diez tamanos terminaron correctamente ===

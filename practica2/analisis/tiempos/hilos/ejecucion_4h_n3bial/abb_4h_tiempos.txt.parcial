@@ -1,0 +1,8 @@
+=== RESULTADOS: abb | HILOS: 4 ===
+Fuente: abbHilos.c
+Compilacion: gcc -std=gnu11 -Wall -Wextra -pthread
+Cada n se ejecuta una vez; los programas por lote usan su repeticion predeterminada (1).
+Medida: lote de 20 consultas y tiempo amortizado por consulta.
+Las versiones y comparaciones mostradas son las incluidas en el fuente.
+
+=== PRUEBA n = 1000000 | HILOS = 4 ===
